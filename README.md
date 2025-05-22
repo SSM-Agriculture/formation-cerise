@@ -8,6 +8,8 @@ Support de présentation pour prendre en main l'environnement de travail (et de 
 
 *Cerise : Consolidation Et Restitution de l'Information StatistiquE*
 
+Cette formation a été écrite par le DEMESIS et fait partie du tronc commun des formations suivies par les nouveaux agents arrivants au SSM Agriculture. Cette formation est dispensée en distanciel sur une demi-journée.  
+
 > Pour un affichage optimisé de la présentation il est conseillé d'utiliser un navigateur basé sur Chromium (par exemple les navigateurs Edge, Chrome, Brave...).
 
 
