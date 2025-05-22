@@ -1,0 +1,25 @@
+# Présentation {.backgroundTitre}
+
+## C'est quoi Cerise ?
+
+**CERISE : Consolidation Et Restitution de l’Information StatistiquE**
+
+Cerise contient les données individuelles collectées (voire agrégées) et des programmes R pour les exploiter CERISE contient des projets (ex : fiche territoriale) avec des programmes R et des projets particuliers (ex Rgonomie) avec des scripts R exécutés dans des interfaces spécifiques sous R Shiny
+
+## Organisation de Cerise
+
+Cerise est organisé en plusieurs répertoires :
+
+-   [**00-Espace-Personnel**]{.blue} =\> espaces personnels des agents, accessible par l’agent uniquement
+
+-   [**01-Espace-de-Partage**]{.blue} =\> lieu de partage général entre les différents acteurs
+
+-   [**02-Espace-de-Production**]{.blue} =\> plateforme de stockage des données brutes collectées, ainsi que des fichiers de données et programmes issus des traitements statistiques réalisés par l'équipe projet
+
+-   [**03-Espace-de-Diffusion**]{.blue} =\> mise à disposition au sein du SSM des données issues des traitements statistiques réalisés en amont
+
+*=\> Ces deux derniers espaces sont découpés par opérations statistiques*
+
+-   [**04-Espace-Echanges**]{.blue} =\> stockage des fichiers de données à transmettre aux autres applications du SI CASSIS (par exemple Agreste) ainsi qu'aux SI des partenaires extérieurs
+
+![](img/Arbo_cerise.png){fig-align="center"}
