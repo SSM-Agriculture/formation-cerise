@@ -44,7 +44,7 @@ visuel des formations dispensées au
 
 Cette formation s'adresse à tous les nouveaux arrivants au SSM Agriculture qui seront amenés à manipuler des données sous Cerise. Elle est dispensée en distanciel sur une demi-journée.
 
-
+Ce support ne se substitue pas aux formations R dispensées par les formateurs du MASA. Il permet aux nouveaux agents ayant déjà pratiqué R dans un autre contexte de découvrir les spécificités de Cerise et d'en faire un bon usage.
 
 {{< include 01_presentation.qmd >}}
 
