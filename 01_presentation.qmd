@@ -42,3 +42,7 @@ Cerise est organisé en plusieurs répertoires :
 ## Organisation de Cerise (3/3)
 
 ![](img/espace_de_production.png){fig-align="center"}
+
+## Remarques et astuces sur Cerise
+
+- Pas d'explorateur de fichiers sous Cerise. La navigation dans l'arborescence se fait via le menu "Fichiers" ou "Files" de RStudio.
