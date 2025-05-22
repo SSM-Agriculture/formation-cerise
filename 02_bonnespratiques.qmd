@@ -1,3 +1,10 @@
 # Bonnes pratiques {.backgroundTitre}
 
 ## Cerise, un espace partagé
+
+Comme tout espace partagé et mutualisé, il convient d'être économe en ressources sur Cerise.  
+
+Le DEMESIS a principalement 2 métriques en tête :  
+
+- La consommation de mémoire vive (RAM) : utile pour stocker les données en cours de traitement dans les sessions R.  
+- La consommation de CPU (precesseur) : reflète l'intensité des calculs demandés par une session R.
