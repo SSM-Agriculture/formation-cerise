@@ -2,7 +2,7 @@
 [![render](https://github.com/SSM-Agriculture/formation-rgonomie/actions/workflows/publish.yaml/badge.svg)](https://github.com/SSM-Agriculture/formation-rgonomie)
 <!-- badges: end -->
 
-# Formation Prise en main de l'environnement Cerise <img src="img/cerise_logo.png" width=110 align="right"/>
+# Formation Prise en main de l'environnement Cerise <img src="img/cerise_logo.png" width=90 align="right"/>
 
 Support de présentation pour prendre en main l'environnement de travail (et de formation) nommé Cerise au [MASA](https://agriculture.gouv.fr/).
 
