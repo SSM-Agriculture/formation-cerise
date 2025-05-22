@@ -1,0 +1,3 @@
+# Bonnes pratiques {.backgroundTitre}
+
+## Cerise, un espace partagé

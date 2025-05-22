@@ -48,3 +48,5 @@ Ce support ne se substitue pas aux formations R dispensées par les formateurs d
 
 {{< include 01_presentation.qmd >}}
 
+{{< include 02_bonnespratiques.qmd >}}
+
