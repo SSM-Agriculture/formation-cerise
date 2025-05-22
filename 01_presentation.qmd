@@ -4,7 +4,20 @@
 
 **CERISE : Consolidation Et Restitution de l’Information StatistiquE**
 
-Cerise contient les données individuelles collectées (voire agrégées) et des programmes R pour les exploiter CERISE contient des projets (ex : fiche territoriale) avec des programmes R et des projets particuliers (ex Rgonomie) avec des scripts R exécutés dans des interfaces spécifiques sous R Shiny
+Cerise contient l'ensemble des données et des programmes R utilisés par le SSM Agriculture.
+
+Cerise est une plateforme qui repose sur la solution "Posit Workbench" commercialisée par la société du même nom "Posit". Elle offre une interface web pour utiliser RStudio dans un environnement multi-utilisateurs et sécurisé.
+
+Cerise est articulé autour de 3 VM :
+
+
+**Comment accéder à Cerise ?**  
+
+Via votre navigateur et les URL suivantes : 
+
+- https://rstudio.agriculture.rie.gouv.fr/ : accès général à tous les agents du SSM  
+- https://rstudio2.agriculture.rie.gouv.fr/ : accès réservé aux opérations gourmandes en ressources  
+- https://rstudio3.agriculture.rie.gouv.fr/ : accès réservé aux agents du DEMESIS  
 
 ## Organisation de Cerise (1/3)
 
