@@ -1,0 +1,50 @@
+---
+title: "Formation-cerise"
+subtitle: "Prise en main de l'environnement de travail Cerise"
+date: today
+date-format: "DD/MM/YYYY"
+author: "SSP/DEMESIS"
+description: |
+  Support de formation Cerise du MASA
+slide-tone: false # for blind readers
+chalkboard: false # press the B key to toggle chalkboard
+transition: slide
+fig-cap-location: bottom
+# toc: true
+# toc-title: Sommaire
+# toc-depth: 1
+# toc-float: true
+#multiplex: true
+execute:
+  echo: false
+  warning: false
+  cache: false
+editor:
+  render-on-save: true
+  markdown: 
+    wrap: 72
+---
+
+## Sommaire
+
+Déroulement demi-journée :  
+
+- Présentation Cerise
+- Bonnes pratiques
+- Les ACL et droits spécifiques sur Cerise
+...
+
+## Avant-propos
+
+<br>
+
+Ce diaporama de formation a été rédigé dans le but d'être le support
+visuel des formations dispensées au
+[MASA](https://agreste.agriculture.gouv.fr/).
+
+Cette formation s'adresse à tous les nouveaux arrivants au SSM Agriculture qui seront amenés à manipuler des données sous Cerise. Elle est dispensée en distanciel sur une demi-journée.
+
+
+
+{{< include 01_presentation.qmd >}}
+
