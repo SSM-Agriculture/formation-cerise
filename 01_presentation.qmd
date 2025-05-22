@@ -6,7 +6,7 @@
 
 Cerise contient les données individuelles collectées (voire agrégées) et des programmes R pour les exploiter CERISE contient des projets (ex : fiche territoriale) avec des programmes R et des projets particuliers (ex Rgonomie) avec des scripts R exécutés dans des interfaces spécifiques sous R Shiny
 
-## Organisation de Cerise
+## Organisation de Cerise (1/3)
 
 Cerise est organisé en plusieurs répertoires :
 
@@ -14,7 +14,7 @@ Cerise est organisé en plusieurs répertoires :
 
 -   [**01-Espace-de-Partage**]{.blue} =\> lieu de partage général entre les différents acteurs
 
--   [**02-Espace-de-Production**]{.blue} =\> plateforme de stockage des données brutes collectées, ainsi que des fichiers de données et programmes issus des traitements statistiques réalisés par l'équipe projet
+-   [**02-Espace-de-Production**]{.blue} =\> plateforme de stockage des données brutes collectées, ainsi que des fichiers de données et programmes issus des traitements statistiques réalisés par l'équipe projet (voir image plus loin)
 
 -   [**03-Espace-de-Diffusion**]{.blue} =\> mise à disposition au sein du SSM des données issues des traitements statistiques réalisés en amont
 
@@ -22,4 +22,10 @@ Cerise est organisé en plusieurs répertoires :
 
 -   [**04-Espace-Echanges**]{.blue} =\> stockage des fichiers de données à transmettre aux autres applications du SI CASSIS (par exemple Agreste) ainsi qu'aux SI des partenaires extérieurs
 
+## Organisation de Cerise (2/3)
+
 ![](img/Arbo_cerise.png){fig-align="center"}
+
+## Organisation de Cerise (3/3)
+
+![](img/espace_de_production.png){fig-align="center"}
