@@ -10,8 +10,16 @@ Cerise est une plateforme qui repose sur la solution "Posit Workbench" commercia
 
 Cerise est articulé autour de 3 VM :
 
+## Avantages de Cerise
 
-**Comment accéder à Cerise ?**  
+Cerise présente plusieurs avantages :  
+
+- Accès aux données du SSM Agriculture (enquêtes, nomenclatures, fichiers externes...)  
+- Montée de versions régulière (Workbench / R / Packages)  
+- Sécurité /conformité  
+- Support Centre de Service et assistance BQIS garantis
+
+## Comment accéder à Cerise ?
 
 Via votre navigateur et les URL suivantes : 
 
