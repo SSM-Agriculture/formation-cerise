@@ -8,3 +8,25 @@ Le DEMESIS a principalement 2 métriques en tête :
 
 - La consommation de mémoire vive (RAM) : utile pour stocker les données en cours de traitement dans les sessions R.  
 - La consommation de CPU (precesseur) : reflète l'intensité des calculs demandés par une session R.
+
+## Gestion des ressources par les utilisateurs (1/2)
+
+Voici quelques conseils pour limiter la consommation de mémoire sous Cerise :  
+
+- **Désactiver la sauvegarde automatique des éléments de session**  
+
+![](img/sauv_RData.png){fig-align="center"}
+
+## Gestion des ressources par les utilisateurs (2/2)
+
+- **Nettoyer régulièrement sa mémoire vive**  
+
+Utiliser la fonction `gc()` pour libérer la mémoire occcupée inutilement par votre session.  
+Ou via l'interface de RStudio :  
+
+![](img/liberer_memoire.png){fig-align="center"}
+
+Voir [cette page d'utilitr](https://book.utilitr.org/01_R_Insee/Fiche_utiliser_ressources.html) pour en savoir plus.
+    
+- **Pour les données volumineuses, privilégier le format de fichier Parquet**  
+Voir [ici](https://ssm-agriculture.github.io/formation-R-perf-06-parquet/) pour en savoir plus ou vous inscrire aux annonces de formation.
