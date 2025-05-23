@@ -19,6 +19,20 @@ Cerise présente plusieurs avantages :
 - Sécurité /conformité  
 - Support Centre de Service et assistance BQIS garantis
 
+## Ressources Cerise
+
+- 160 Go RAM  
+- 30 processeurs virtuels  
+- Plus de 400 utilisateurs distincts  
+- 80 sessions simultanées en moyenne
+
+Des admins Cerise qui vous surveillent {{< fa face-smile-wink >}} 
+
+![](img/adm_cerise.png){fig-align="right"}
+
+
+
+
 ## Comment accéder à Cerise ?
 
 Via votre navigateur et les URL suivantes : 
