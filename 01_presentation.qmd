@@ -43,6 +43,14 @@ Cerise est organisé en plusieurs répertoires :
 
 ![](img/espace_de_production.png){fig-align="center"}
 
+## Accéder facilement à son espace personnel
+
+L'accès à l'espace personnel de Cerise peut être difficile lorsque vous êtes "perdus" dans l'arborescence riche de Cerise.  
+Voici ci-dessous comment faire pour y accéder rapidement.  
+
+
+![](img/acces_espace_perso.png){fig-align="center"}
+
 ## Remarques et astuces sur Cerise
 
-- Pas d'explorateur de fichiers sous Cerise. La navigation dans l'arborescence se fait via le menu "Fichiers" ou "Files" de RStudio.
+- Pas d'explorateur de fichiers comme Windows sous Cerise. La navigation dans l'arborescence se fait via le menu "Fichiers" ou "Files" de RStudio.
