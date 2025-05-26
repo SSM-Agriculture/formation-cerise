@@ -41,6 +41,24 @@ Via votre navigateur et les URL suivantes :
 - https://rstudio2.agriculture.rie.gouv.fr/ : accès réservé aux opérations gourmandes en ressources  
 - https://rstudio3.agriculture.rie.gouv.fr/ : accès réservé aux agents du DEMESIS  
 
+## Mises à jour Cerise
+
+- R
+    - Une **montée de version** annuelle de R_Base
+    Le DéMéSIS met à disposition 2 versions de R_base :
+
+        - Suppression de le version la plus ancienne présente l'année N-1 sur CERISE
+        - Reconduction de le version la plus récente présente l'année N-1 sur CERISE
+        - Ajout de la dernière version stable* mise à disposition sur le CRAN
+        
+- RStudio
+    Dernière version stable* mise à disposition par l'éditeur (au moment de la réalisation de septembre/octobre de l'année N-1)
+    
+- Packages
+    - La liste des packages R valides et compatibles à une date donnée sont mis à disposition dans le Data Center du MASA.
+    - Une liste pré-établie de packages est préinstallée sur CERISE pour chacune des version R_Base
+
+
 ## Organisation de Cerise (1/3)
 
 Cerise est organisé en plusieurs répertoires :
