@@ -2,7 +2,13 @@
 
 ## Habilitations
 
-Dans Espace de production....
+La majorité des espaces présents sous Cerise sont soumis à des régimes d'habilitations.  
+
+Pour les nouveaux arrivants, ce sont les responsables hiérarchiques qui demandent les habilitations sur l'ensemble des outils.  
+
+La procédure à suivre est disponible sous Pistache [sur cette page](https://pistache.agriculture.rie.gouv.fr/procedure-a-appliquer-lors-de-tout-mouvement-d-agents-au-sein-du-ssm-a7768.html).  
+
+Pour toutes les autres habilitations supplémentaires au fil de l'eau qui concernent Cerise, vous pouvez faire une demande à la BAL d'assistance : assistance.si-stat.sg@agriculture.gouv.fr
 
 
 ## Rendre un dossier (ou un fichier) modifiable par vos collègues
