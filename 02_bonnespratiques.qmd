@@ -31,10 +31,15 @@ Voir [cette page d'utilitr](https://book.utilitr.org/01_R_Insee/Fiche_utiliser_r
 - **Pour les données volumineuses, privilégier le format de fichier Parquet**  
 Voir [ici](https://ssm-agriculture.github.io/formation-R-perf-06-parquet/) pour en savoir plus et/ou vous inscrire aux annonces de formation du BQIS.
 
-## Gestion des sessions
+## Gestion des sessions (1/N)
 
-A COMPLETER....
+- Quand vous vous connectez sur Cerise via l'adresse fournie - **si vous n'avez qu'une session d'ouverte** - Cerise vous place directement dedans (vous arrivez donc dans l'interface RStudio).
 
+- **A partir de 2 sessions ouvertes**, lorsque vous vous connectez à Cerise, vous allez arriver sur l'écran de gestion des sessions :  
+
+![](img/home_sessions.png){fig-align="center"}
+
+## Gestion des sessions (2/N)
 
 ## Chargement/Téléchargement de fichiers Cerise (1/2)
 
