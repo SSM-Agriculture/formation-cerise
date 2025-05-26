@@ -72,7 +72,7 @@ Cerise est organisé en plusieurs répertoires :
 
 -   [**00-Espace-Personnel**]{.blue} =\> espaces personnels des agents, accessible par l’agent uniquement
 
--   [**01-Espace-de-Partage**]{.blue} =\> lieu de partage général entre les différents acteurs
+-   [**01-Espace-de-Partage**]{.blue} =\> lieu de partage général (programmes/formation/outils...) entre les différents acteurs
 
 -   [**02-Espace-de-Production**]{.blue} =\> plateforme de stockage des données brutes collectées, ainsi que des fichiers de données et programmes issus des traitements statistiques réalisés par l'équipe projet (voir image plus loin)
 
