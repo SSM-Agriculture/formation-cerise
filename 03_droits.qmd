@@ -2,4 +2,16 @@
 
 ## Habilitations
 
+Dans Espace de production....
 
+
+## Rendre un dossier (ou un fichier) modifiable par vos collègues
+
+Des ACL (Access Control List) sont appliqués dans Cerise.  
+Il s'agit d'un mécanisme de gestion des droits qui permet de définir qui peut accéder à quelles ressources et avec quels niveaux de permissions.  
+
+Côté utilisateurs, cela implique quelques règles d'usage à suivre - pour éviter notamment la non-modification d'un dossier/fichier par vos collègues.  
+
+La règle générale est la suivante :  
+
+**Ne pas faire "Deplacer..." des dossiers/fichiers depuis son espace personnel vers un espace de partage mais faire un "Copier vers ..."**
