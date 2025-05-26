@@ -30,3 +30,22 @@ Voir [cette page d'utilitr](https://book.utilitr.org/01_R_Insee/Fiche_utiliser_r
     
 - **Pour les données volumineuses, privilégier le format de fichier Parquet**  
 Voir [ici](https://ssm-agriculture.github.io/formation-R-perf-06-parquet/) pour en savoir plus et/ou vous inscrire aux annonces de formation du BQIS.
+
+## Gestion des sessions
+
+A COMPLETER....
+
+
+## Chargement/Téléchargement de fichiers Cerise
+
+- Pour charger vers Cerise des fichiers depuis votre poste en local :  
+
+Cliquer sur le bouton "upload" dans l'onglet "Files"  
+
+![](img/charger_cerise.png){fig-align="center"}
+
+- Pour télécharger depuis Cerise vers votre poste en local :  
+
+Cliquer sur la roue crantée dans l'onglet "Files"
+
+![](img/telecharger_cerise.png){fig-align="center"}
