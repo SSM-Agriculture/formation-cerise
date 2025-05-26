@@ -44,6 +44,9 @@ Voir [ici](https://ssm-agriculture.github.io/formation-R-perf-06-parquet/) pour 
 - Dans la colonne de gauche de l'écran des sessions, vous trouverez vos sessions ouvertes.  
 - Dans la colonne de droite de l'écran des sessions, vous trouvez les différents projets que vous récemment utilisés.  
 
+
+**Chaque session est indépendante des autres.** Si vous avez lancé un long traitement dans une session, celle-ci est occupée et non-réactive le temps du traitement, mais vous pouvez continuer à travailler normalement dans les autres sessions.
+
 IMPORTANT : il est important de veiller à limiter votre nombre de sessions actives (maximum 5 !) au risque de ne plus pouvoir accéder à Cerise par la suite.
 
 ## Chargement/Téléchargement de fichiers Cerise (1/2)
