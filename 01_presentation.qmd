@@ -100,4 +100,7 @@ Voici ci-dessous comment faire pour y accéder rapidement.
 
 ## Remarques et astuces sur Cerise
 
-- Pas d'explorateur de fichiers comme Windows sous Cerise. La navigation dans l'arborescence se fait via le menu "Fichiers" ou "Files" de RStudio.
+- Pas d'explorateur de fichiers comme Windows sous Cerise. La navigation dans l'arborescence se fait via le menu "Fichiers" ou "Files" de RStudio.  
+- Pour sélectionner une version R_Base, il faut la sélectionner en haut à droite dans la fenêtre RStudio  
+
+![](img/version_R.png){fig-align="center"}
