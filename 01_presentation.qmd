@@ -104,3 +104,6 @@ Voici ci-dessous comment faire pour y accéder rapidement.
 - Pour sélectionner une version R_Base, il faut la sélectionner en haut à droite dans la fenêtre RStudio  
 
 ![](img/version_R.png){fig-align="center"}
+- Pour éviter le risque de perdre du code R pendant une interruption Cerise, il est recommandé de cocher ces 2 cases accessibles dans le menu de RStudio > Outils > Options globales > Onglet Sauvegarder
+
+![](img/autosave.png){fig-align="center"}
