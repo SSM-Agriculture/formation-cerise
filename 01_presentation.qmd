@@ -58,6 +58,13 @@ Via votre navigateur et les URL suivantes :
     - La liste des packages R valides et compatibles à une date donnée sont mis à disposition dans le Data Center du MASA.
     - Une liste pré-établie de packages est préinstallée sur CERISE pour chacune des version R_Base
 
+## Cerise en 2025
+
+| Composant   | Version actuelle                                                                                                                                                                                                     |
+|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| RStudio     | 2024.09  « Cranberry Hibiscus »                                                                                                                                                                                      |
+| R_Base_Core | R 4.2.3 – 2023-03-15<br>R 4.4.1 – 2024-06-15                                                                                                                                                                         |
+| Packages    | R 4.2.3 – 2023-03-15<br>Nombre de packages disponibles : 18839<br>Nombre de packages installés   :   770<br>R 4.4.1  – 2024-06-15<br>Nombre de packages disponibles : 20946<br>Nombre de packages installés   :   80 |
 
 ## Organisation de Cerise (1/3)
 
