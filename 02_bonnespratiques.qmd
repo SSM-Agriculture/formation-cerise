@@ -29,4 +29,4 @@ Ou via l'interface de RStudio :
 Voir [cette page d'utilitr](https://book.utilitr.org/01_R_Insee/Fiche_utiliser_ressources.html) pour en savoir plus.
     
 - **Pour les données volumineuses, privilégier le format de fichier Parquet**  
-Voir [ici](https://ssm-agriculture.github.io/formation-R-perf-06-parquet/) pour en savoir plus ou vous inscrire aux annonces de formation.
+Voir [ici](https://ssm-agriculture.github.io/formation-R-perf-06-parquet/) pour en savoir plus et/ou vous inscrire aux annonces de formation du BQIS.
