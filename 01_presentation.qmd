@@ -117,15 +117,12 @@ Exemple :
 
 ## Focus sur l'espace de production (2/2)
 
-::: columns
-::: {.column width="65%"}
+Les différents groupes d'habilitations disposent des droits suivants :  
 
-:::
-
-::: {.column width="35%"}
-
-:::
-:::
+- Utilisateur standard : aucun  
+- Chargé d'études : lecture  
+- Producteur de données : lecture/écriture  
+- Administrateur : lecture/écriture
 
 ## Accéder facilement à son espace personnel
 
