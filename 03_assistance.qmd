@@ -1,7 +1,18 @@
 # Assistance {.backgroundTitre}
 
-## Demander de l'aide sur Cerise ?
+## Demander de l'aide sur Cerise - Qui ?
 
 Les demandes d'assistances et les remontée de bugs sont à adresser à : 
-assistance.si-stat.sg@agriculture.gouv.fr
+assistance.si-stat.sg@agriculture.gouv.fr.  
 
+- Directement par mail;  
+- Via [cette page](https://orion.agriculture/confluence/display/CER/Portail+d%27assistance+Cerise) en cliquant sur le bouton :  
+
+![](img/bouton_assistance.png){fig-align="center"}
+
+
+## Demander de l'aide sur Cerise - Comment ?
+
+Essayez autant que possible de suivre les conseils contenus dans [cette page](https://book.utilitr.org/03_Fiches_thematiques/Fiche_resoudre_un_probleme.html#comment-r%25C3%25A9diger-sa-question) ou [celle-ci](https://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example) avant de poser votre question.
+
+**Votre demande sera d'autant plus vite traitée que celle-ci sera facilement reproductible par l'équipe d'assistance**.
