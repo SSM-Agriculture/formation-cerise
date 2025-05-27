@@ -10,6 +10,9 @@ La procédure à suivre est disponible sous Pistache [sur cette page](https://pi
 
 Pour toutes les autres habilitations supplémentaires au fil de l'eau qui concernent Cerise, vous pouvez faire une demande à la BAL d'assistance : assistance.si-stat.sg@agriculture.gouv.fr
 
+## Matrice des habilitations
+
+![](img/matrice_habilitations.png){fig-align="center"}
 
 ## Rendre un dossier (ou un fichier) modifiable par vos collègues
 
