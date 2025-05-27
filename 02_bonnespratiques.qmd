@@ -93,3 +93,14 @@ Git permet :
 - De revenir en arrière dans le temps...  
 
 Un module de formation est disponible [à cette adresse](https://ssm-agriculture.github.io/formation-git/), n'hésitez pas à vous y inscrire !  
+
+## Utilisation du mode projet
+
+Nous vous recommandons d'utiliser le mode projet le plus souvent possible.  
+Plusieurs avantages :   
+
+- Organisation claire  
+- Gestion des chemins d'accès portable  
+- Reproductibilité  
+- Isolation des environnements (avec renv)  
+- Intégration avec Git ...
