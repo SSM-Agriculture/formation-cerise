@@ -31,7 +31,8 @@ Déroulement demi-journée :
 
 - Présentation Cerise
 - Bonnes pratiques
-- Les ACL et droits spécifiques sur Cerise
+- Droits/Habilitations
+- Assistance
 ...
 
 ## Avant-propos
