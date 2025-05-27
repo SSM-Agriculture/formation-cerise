@@ -15,4 +15,17 @@ assistance.si-stat.sg@agriculture.gouv.fr.
 
 Essayez autant que possible de suivre les conseils contenus dans [cette page](https://book.utilitr.org/03_Fiches_thematiques/Fiche_resoudre_un_probleme.html#comment-r%25C3%25A9diger-sa-question) ou [celle-ci](https://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example) avant de poser votre question.
 
-**Votre demande sera d'autant plus vite traitée que celle-ci sera facilement reproductible par l'équipe d'assistance**.
+**Votre demande sera d'autant plus vite traitée que celle-ci sera facilement reproductible par l'équipe d'assistance**.  
+
+## Mise à disposition plateforme de test
+
+**Cerise PPRD** : https://rstudio-pprd.agriculture.rie.gouv.fr/   
+
+But :  
+  - Test des programmes sur la nouvelle version de R à venir
+  - Montée de version des packages et mise à jour des programmes le cas échéant
+  
+Contexte de test :  
+  - Habilitations : Iso-production  
+  - Système de fichiers / arborescence couramment synchronisé avec Cerise de PROD  
+  - Tests ouverts à tous les utilisateurs Cerise
