@@ -28,7 +28,7 @@ Ou via l'interface de RStudio :
 
 Voir [cette page d'utilitr](https://book.utilitr.org/01_R_Insee/Fiche_utiliser_ressources.html) pour en savoir plus.
     
-- **Pour les données volumineuses, privilégier le format de fichier Parquet**  
+- **Pour les données volumineuses, privilégier le format de fichier Parquet**  (voir plus loin)
 Voir [ici](https://ssm-agriculture.github.io/formation-R-perf-06-parquet/) pour en savoir plus et/ou vous inscrire aux annonces de formation du BQIS.
 
 ## Gestion des sessions (1/N)
@@ -105,3 +105,30 @@ Plusieurs avantages :
 - Reproductibilité  
 - Isolation des environnements (avec renv)  
 - Intégration avec Git ...
+
+## Comparatif des formats de fichier de données
+
+![](img/comparatif_format_donnees.png){fig-align="center"}
+## Recommandations selon le contexte
+
+![](img/cas_usage_format_donnees.png){fig-align="center"}
+
+## Résumé des propriétés des différents formats
+
+- CSV  
+    Très facile à manipuler manuellement, mais inefficace pour les gros volumes.  
+    Pas de support natif pour les types de données (dates, facteurs).  
+    I/O très lente en R pour de grands volumes.  
+- Parquet  
+    Requiert le package "arrow" en R.  
+    Lecture partielle possible (par colonne ou ligne).  
+    Excellent pour la mutualisation, le cloud, ou les flux inter-langages (Python, Spark…).  
+- RData  
+    Sauvegarde plusieurs objets, utile pour des environnements complexes.  
+    Inadapté pour charger sélectivement un seul objet dans un gros fichier.  
+- RDS  
+   Format natif optimisé pour un seul objet R.  
+   Très bon compromis pour la persistance simple et performante en R pur.  
+
+
+
