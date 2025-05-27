@@ -77,6 +77,19 @@ Cliquer sur la roue crantée dans l'onglet "Files"
     
 - Les sauvegardes différentielles ne sont conservées que 15 jours calendaires  
 
-- Des demanded de restauration délicates voire impossibles :  
+- Des demandes de restauration délicates voire impossibles :  
     - Délais de remontée du besoin métier  
     - Délais de prise en charge du centre de service
+    
+## Versionner votre code
+
+Une bonne pratique pour limiter les demandes de restauration de fichiers est de versionner avec Git vos scripts et programmes R.  
+
+Git permet :  
+
+- D'obtenir de la traçabilité  
+- De travailler collectivement  
+- De faire des revues de code  
+- De revenir en arrière dans le temps...  
+
+Un module de formation est disponible [à cette adresse](https://ssm-agriculture.github.io/formation-git/), n'hésitez pas à vous y inscrire !  
