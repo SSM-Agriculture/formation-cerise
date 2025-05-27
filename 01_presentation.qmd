@@ -38,8 +38,9 @@ Des admins Cerise qui vous surveillent {{< fa face-smile-wink >}}
 Via votre navigateur et les URL suivantes : 
 
 - https://rstudio.agriculture.rie.gouv.fr/ : accès général à tous les agents du SSM  
-- https://rstudio2.agriculture.rie.gouv.fr/ : accès réservé aux opérations gourmandes en ressources  
-- https://rstudio3.agriculture.rie.gouv.fr/ : accès réservé aux agents du DEMESIS  
+- https://rstudio2.agriculture.rie.gouv.fr/ : accès réservé Demesis et traitements gourmands en ressources  
+- https://rstudio3.agriculture.rie.gouv.fr/ : accès réservé aux opérations particulières (RA / RICA ...)  
+
 
 ## Mises à jour Cerise
 
