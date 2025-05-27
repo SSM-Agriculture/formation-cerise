@@ -47,7 +47,8 @@ Voir [ici](https://ssm-agriculture.github.io/formation-R-perf-06-parquet/) pour 
 
 **Chaque session est indépendante des autres.** Si vous avez lancé un long traitement dans une session, celle-ci est occupée et non-réactive le temps du traitement, mais vous pouvez continuer à travailler normalement dans les autres sessions.
 
-IMPORTANT : il est important de veiller à limiter votre nombre de sessions actives (maximum 5 !) au risque de ne plus pouvoir accéder à Cerise par la suite.
+IMPORTANT : il est important de veiller à limiter votre nombre de sessions actives (maximum 5 !) au risque de ne plus pouvoir accéder à Cerise par la suite.  
+Au S2 2025, il est prévu de limiter le nombre de sessions en parallèle par utilisateur et de supprimer automatiquement les sessions inactives.
 
 ## Chargement/Téléchargement de fichiers Cerise (1/2)
 
