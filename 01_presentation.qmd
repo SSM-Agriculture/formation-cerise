@@ -40,7 +40,7 @@ Des admins Cerise qui vous surveillent {{< fa face-smile-wink >}}
 
 ## Mises à jour Cerise
 
-- **R**
+- [****R**]{.blue}
     - Une **montée de version** annuelle de R_Base  
     Le DéMéSIS met à disposition 2 versions de R_base :
 
@@ -48,10 +48,10 @@ Des admins Cerise qui vous surveillent {{< fa face-smile-wink >}}
         - Reconduction de la version la plus récente présente l'année N-1 sur CERISE
         - Ajout de la dernière version stable mise à disposition sur le CRAN
         
-- RStudio
+- [**RStudio**]{.blue}
     Dernière version stable mise à disposition par l'éditeur (au moment de la réalisation de septembre/octobre de l'année N-1)
     
-- Packages
+- [**Packages**]{.blue}
     - La liste des packages R valides et compatibles à une date donnée sont mis à disposition dans le Data Center du MASA.
     - Une liste pré-établie de packages est préinstallée sur CERISE pour chacune des version R_Base
 
