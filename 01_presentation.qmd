@@ -8,7 +8,11 @@ Cerise contient l'ensemble des données et des programmes R utilisés par le SSM
 
 Cerise est une plateforme qui repose sur la solution "Posit Workbench" commercialisée par la société du même nom "Posit". Elle offre une interface web pour utiliser RStudio dans un environnement multi-utilisateurs et sécurisé.
 
-Cerise est articulé autour de 3 VM :
+Cerise est articulé autour de 3 VM accessibles via votre navigateur et les URL suivantes :  
+
+- https://rstudio.agriculture.rie.gouv.fr/ : accès général à tous les agents du SSM  
+- https://rstudio2.agriculture.rie.gouv.fr/ : accès réservé Demesis et traitements gourmands en ressources  
+- https://rstudio3.agriculture.rie.gouv.fr/ : accès réservé aux opérations particulières (RA / RICA ...)  
 
 ## Avantages de Cerise
 
@@ -35,11 +39,6 @@ Des admins Cerise qui vous surveillent {{< fa face-smile-wink >}}
 
 ## Comment accéder à Cerise ?
 
-Via votre navigateur et les URL suivantes : 
-
-- https://rstudio.agriculture.rie.gouv.fr/ : accès général à tous les agents du SSM  
-- https://rstudio2.agriculture.rie.gouv.fr/ : accès réservé Demesis et traitements gourmands en ressources  
-- https://rstudio3.agriculture.rie.gouv.fr/ : accès réservé aux opérations particulières (RA / RICA ...)  
 
 
 ## Mises à jour Cerise
