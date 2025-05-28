@@ -8,15 +8,17 @@ Cerise contient l'ensemble des données et des programmes R utilisés par le SSM
 
 Cerise est une plateforme qui repose sur la solution "Posit Workbench" commercialisée par la société du même nom "Posit". Elle offre une interface web pour utiliser RStudio dans un environnement multi-utilisateurs et sécurisé.
 
-Cerise est articulé autour de 3 VM accessibles via votre navigateur et les URL suivantes :  
+**Cerise est articulé autour de 3 VM accessibles via votre navigateur et les URL suivantes :**  
 
-- https://rstudio.agriculture.rie.gouv.fr/ : accès général à tous les agents du SSM  
-- https://rstudio2.agriculture.rie.gouv.fr/ : accès réservé Demesis et traitements gourmands en ressources  
-- https://rstudio3.agriculture.rie.gouv.fr/ : accès réservé aux opérations particulières (RA / RICA ...)  
+- VM1 : accès général à tous les agents du SSM  
+- VM2 : accès réservé Demesis et traitements gourmands en ressources  
+- VM3 : accès réservé aux opérations particulières (RA / RICA ...)  
+
+URL à faire figurer dans vos favoris Firefox : `https://rstudio.agriculture.rie.gouv.fr/`
 
 ## Avantages de Cerise
 
-Cerise présente plusieurs avantages :  
+**Cerise présente plusieurs avantages :**  
 
 - Accès aux données du SSM Agriculture (enquêtes, nomenclatures, fichiers externes...)  
 - Montée de versions régulière (Workbench / R / Packages)  
@@ -32,27 +34,22 @@ Cerise présente plusieurs avantages :
 
 Des admins Cerise qui vous surveillent {{< fa face-smile-wink >}} 
 
-![](img/adm_cerise.png){fig-align="right"}
-
-
-
-
-## Comment accéder à Cerise ?
+![](img/adm_cerise.png){fig-align="center"}
 
 
 
 ## Mises à jour Cerise
 
-- R
-    - Une **montée de version** annuelle de R_Base
+- **R**
+    - Une **montée de version** annuelle de R_Base  
     Le DéMéSIS met à disposition 2 versions de R_base :
 
-        - Suppression de le version la plus ancienne présente l'année N-1 sur CERISE
-        - Reconduction de le version la plus récente présente l'année N-1 sur CERISE
-        - Ajout de la dernière version stable* mise à disposition sur le CRAN
+        - Suppression de la version la plus ancienne présente l'année N-1 sur CERISE
+        - Reconduction de la version la plus récente présente l'année N-1 sur CERISE
+        - Ajout de la dernière version stable mise à disposition sur le CRAN
         
 - RStudio
-    Dernière version stable* mise à disposition par l'éditeur (au moment de la réalisation de septembre/octobre de l'année N-1)
+    Dernière version stable mise à disposition par l'éditeur (au moment de la réalisation de septembre/octobre de l'année N-1)
     
 - Packages
     - La liste des packages R valides et compatibles à une date donnée sont mis à disposition dans le Data Center du MASA.
