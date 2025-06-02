@@ -33,7 +33,7 @@ Déroulement demi-journée :
 - Bonnes pratiques
 - Droits/Habilitations
 - Assistance
-...
+- Onyxia/SSP Cloud
 
 ## Avant-propos
 
@@ -43,7 +43,7 @@ Ce diaporama de formation a été rédigé dans le but d'être le support
 visuel des formations dispensées au
 [MASA](https://agreste.agriculture.gouv.fr/).
 
-Cette formation s'adresse à tous les nouveaux arrivants au SSM Agriculture qui seront amenés à manipuler des données sous Cerise. Elle est dispensée en distanciel sur une **demi-journée**.
+Cette formation s'adresse à tous les nouveaux arrivants au SSM Agriculture qui seront amenés à manipuler des données sous Cerise ou sous Onyxia. Elle est dispensée en distanciel sur une **demi-journée**.
 
 Ce support ne se substitue pas aux formations R dispensées par les formateurs du MASA. Il permet aux nouveaux agents ayant déjà pratiqué R dans un autre contexte de **découvrir les spécificités de Cerise et d'en faire un bon usage**.
 
@@ -54,4 +54,6 @@ Ce support ne se substitue pas aux formations R dispensées par les formateurs d
 {{< include 03_droits.qmd >}}
 
 {{< include 04_assistance.qmd >}}
+
+{{< include 05_onyxia.qmd >}}
 
