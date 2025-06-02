@@ -21,6 +21,9 @@ Il s'agit d'un mécanisme de gestion des droits qui permet de définir qui peut 
 
 Côté utilisateurs, cela implique quelques règles d'usage à suivre - pour éviter notamment la non-modification d'un dossier/fichier par vos collègues.  
 
-La règle générale est la suivante :  
+::: callout-important
+## Règle générale : 
 
-**Ne pas faire "Deplacer..." des dossiers/fichiers depuis son espace personnel vers un espace de partage mais faire un "Copier vers ..."**
+Ne pas faire "Deplacer..." des dossiers/fichiers depuis son espace personnel vers un espace de partage mais faire un "Copier vers ..."
+:::
+
