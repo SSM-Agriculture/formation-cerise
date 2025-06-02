@@ -81,11 +81,11 @@ Son contenu sera ensuite automatiquement dézippé sous Cerise.
 
 ## Restauration des fichiers
 
-- Offre de sauvegarde du centre de service  
+- Offre de sauvegarde du centre de service (CDS)  
     - Sauvegarde complète le vendredi soir  
     - Sauvegarde différentielle les autres jours (Lun./Mar./Mer./Jeu. soir)  
     
-- Les sauvegardes différentielles ne sont conservées que 15 jours calendaires  
+- Les sauvegardes différentielles ne sont conservées que **15 jours calendaires**  
 
 - Des demandes de restauration délicates voire impossibles :  
     - Délais de remontée du besoin métier  
