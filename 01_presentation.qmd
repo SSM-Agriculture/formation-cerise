@@ -14,7 +14,7 @@ Cerise est une plateforme qui repose sur la solution "Posit Workbench" commercia
 - VM2 : accès réservé Demesis et traitements gourmands en ressources  
 - VM3 : accès réservé aux opérations particulières (RA / RICA ...)  
 
-URL à faire figurer dans vos favoris : `https://rstudio.agriculture.rie.gouv.fr/`
+URL à faire figurer dans vos favoris : [https://rstudio.agriculture.rie.gouv.fr/](https://rstudio.agriculture.rie.gouv.fr/)
 
 ## Avantages de Cerise
 
