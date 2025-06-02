@@ -44,9 +44,9 @@ Des admins Cerise qui vous surveillent {{< fa face-smile-wink >}}
     - Une **montée de version** annuelle de R_Base  
     Le DéMéSIS met à disposition 2 versions de R_base :
 
-        - Suppression de la version la plus ancienne présente l'année N-1 sur CERISE
-        - Reconduction de la version la plus récente présente l'année N-1 sur CERISE
-        - Ajout de la dernière version stable mise à disposition sur le CRAN
+        - [Suppression de la version la plus ancienne présente l'année N-1 sur CERISE]{.red}
+        - [Reconduction de la version la plus récente présente l'année N-1 sur CERISE]{.yellow}
+        - [Ajout de la dernière version stable mise à disposition sur le CRAN]{.green}
         
 - [**RStudio**]{.blue}  
     Dernière version stable mise à disposition par l'éditeur (au moment de la réalisation de septembre/octobre de l'année N-1)
