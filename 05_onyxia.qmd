@@ -7,3 +7,12 @@
 - SSP Cloud : une instance d'Onyxia déployée, maintenue et opérée par le SSP (Service Statistique Public)
 
 ![](img/onyxia_intro.png){fig-align="center"}
+
+## Avantages d'Onyxia
+
+Un Datalab dimensionné pour les usages innovants
+
+![](img/avantages_onyxia.png){fig-align="center"}
+
+
+## 
