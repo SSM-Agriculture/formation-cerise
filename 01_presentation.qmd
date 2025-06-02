@@ -53,7 +53,7 @@ Des admins Cerise qui vous surveillent {{< fa face-smile-wink >}}
     
 - [**Packages**]{.blue}
     - La liste des packages R valides et compatibles à une date donnée sont mis à disposition dans le Data Center du MASA.
-    - Une liste pré-établie de packages est préinstallée sur CERISE pour chacune des version R_Base
+    - Une liste pré-établie de packages est préinstallée sur CERISE pour chacune des versions R_Base
 
 ## Cerise en 2025
 
