@@ -51,11 +51,11 @@ jobs:
 
       - name: Convert Reveal.js to PDF
         shell: bash
-        run: npx -y decktape reveal --chrome-arg=--no-sandbox --size "1920x1080" _site/index.html _site/Diaporama_modules_cerise.pdf
+        run: npx -y decktape reveal --chrome-arg=--no-sandbox --size "1920x1080" _site/index.html _site/Diaporama_module_cerise.pdf
 
       - name: Move pdf
         shell: bash
-        run: mv _site/Diaporama_modules_cerise.pdf diaporama_pdf/Diaporama_modules_cerise.pdf
+        run: mv _site/Diaporama_module_cerise.pdf diaporama_pdf/Diaporama_module_cerise.pdf
   
       - name: Commit and push PDF
         shell: bash
