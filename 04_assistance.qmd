@@ -23,11 +23,11 @@ Essayez autant que possible de suivre les conseils contenus dans [cette page](ht
 
 **Cerise PPRD** : [https://rstudio-pprd.agriculture.rie.gouv.fr](https://rstudio-pprd.agriculture.rie.gouv.fr) 
 
-But :  
-  - Test des programmes sur la nouvelle version de R à venir
-  - Montée de version des packages et mise à jour des programmes le cas échéant
+[Objectif :]{.green}  
+  - Test des programmes sur la nouvelle version de R à venir  
+  - Montée de version des packages et mise à jour des programmes le cas échéant  
   
-Contexte de test :  
+[Contexte de test :]{.green}  
   - Habilitations : Iso-production  
   - Système de fichiers / arborescence couramment synchronisé avec Cerise de PROD  
   - Tests ouverts à tous les utilisateurs Cerise
