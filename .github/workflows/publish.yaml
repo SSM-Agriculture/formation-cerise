@@ -62,6 +62,6 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add diaporama_pdf/Diaporama_modules_parquet.pdf
+          git add diaporama_pdf/Diaporama_module_cerise.pdf
           git commit -m "MAJ de la version pdf"
           git push origin main
