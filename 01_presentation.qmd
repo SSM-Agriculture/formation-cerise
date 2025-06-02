@@ -123,12 +123,12 @@ Les différents groupes d'habilitations disposent des droits suivants :
 
 ## Accéder facilement à son espace personnel
 
-L'accès à l'espace personnel de Cerise peut être difficile lorsque vous êtes "perdus" dans l'arborescence riche de Cerise. Voici ci-dessous comment faire pour y accéder rapidement.  
+L'accès à l'espace personnel de Cerise peut être difficile lorsque vous êtes "perdu" dans l'arborescence riche de Cerise. Voici ci-dessous comment faire pour y accéder rapidement.  
 
 
 ![](img/acces_espace_perso.png){fig-align="center"}  
 
-Remarque : soyez économe dans l'utilisation de votre espace personnel. A ne réservez que pour des expérimentations. Pas de recopie de données... 
+Remarque : soyez économe dans l'utilisation de votre espace personnel. A ne réserver que pour des expérimentations. Pas de recopie de données... 
 
 ## Remarques et astuces sur Cerise
 

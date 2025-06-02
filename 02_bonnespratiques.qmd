@@ -42,7 +42,7 @@ Voir [ici](https://ssm-agriculture.github.io/formation-R-perf-06-parquet/) pour 
 ## Gestion des sessions (2/2)
 
 - Dans la colonne de gauche de l'écran des sessions, vous trouverez vos sessions ouvertes.  
-- Dans la colonne de droite de l'écran des sessions, vous trouvez les différents projets que vous récemment utilisés.  
+- Dans la colonne de droite de l'écran des sessions, vous trouvez les différents projets que vous avez récemment utilisés.  
 
 
 **Chaque session est indépendante des autres.** Si vous avez lancé un long traitement dans une session, celle-ci est occupée et non-réactive le temps du traitement, mais vous pouvez continuer à travailler normalement dans les autres sessions.
@@ -115,15 +115,11 @@ Plusieurs avantages :
 - Isolation des environnements (avec renv)  
 - Intégration avec Git ...
 
-## Comparatif des formats de fichier de données
-
-![](img/comparatif_format_donnees.png){fig-align="center"}
-
 ## Recommandations selon le contexte
 
 ![](img/cas_usage_format_donnees.png){fig-align="center"}
 
-## Résumé des propriétés des différents formats
+## Propriétés des différents formats
 
 - CSV  
     Très facile à manipuler manuellement, mais inefficace pour les gros volumes.  
@@ -140,5 +136,7 @@ Plusieurs avantages :
    Format natif optimisé pour un seul objet R.  
    Très bon compromis pour la persistance simple et performante en R pur.  
 
+## Comparatif des formats de fichier de données
 
+![](img/comparatif_format_donnees.png){fig-align="center"}
 
