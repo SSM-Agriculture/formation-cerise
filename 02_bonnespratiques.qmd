@@ -93,9 +93,9 @@ Son contenu sera ensuite automatiquement dézippé sous Cerise.
     
 ## Versionner votre code
 
-Une bonne pratique pour limiter les demandes de restauration de fichiers est de versionner avec Git vos scripts et programmes R.  
+Une bonne pratique pour limiter les demandes de restauration de fichiers est de **versionner avec Git** vos scripts et programmes R.  
 
-Git permet :  
+**Git permet :**  
 
 - D'obtenir de la traçabilité  
 - De travailler collectivement  
@@ -106,7 +106,7 @@ Un module de formation est disponible [à cette adresse](https://ssm-agriculture
 
 ## Utilisation du mode projet
 
-Nous vous recommandons d'utiliser le mode projet le plus souvent possible.  
+Il est recommandé d'utiliser **le mode projet** le plus souvent possible.  
 Plusieurs avantages :   
 
 - Organisation claire  
