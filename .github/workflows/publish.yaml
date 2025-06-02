@@ -55,7 +55,7 @@ jobs:
 
       - name: Move pdf
         shell: bash
-        run: mv _site/Diaporama_modules_parquet.pdf diaporama_pdf/Diaporama_modules_cerise.pdf
+        run: mv _site/Diaporama_modules_cerise.pdf diaporama_pdf/Diaporama_modules_cerise.pdf
   
       - name: Commit and push PDF
         shell: bash
