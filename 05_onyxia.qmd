@@ -14,10 +14,23 @@ Un Datalab dimensionné pour les usages innovants
 
 ![](img/avantages_onyxia.png){fig-align="center"}
 
+## Remarques 
+
+- Le Datalab est une **plateform mutualisée** :  les ressources utilisées par les services sont partagées entre les différents utilisateurs.  
+
+- **Pas de sauvegarde "classique" du code informatique** dans le Datalab => l'utilisation du contrôle de version avec Git est **obligatoire**.  
+
+- Même chose pour **le stockage des données** : la solution de stockage de fichiers associée au Datalab est **MinIO**, un système de stockage d’objets basé sur le cloud, compatible avec **l’API S3 d’Amazon**. 
+
+
 
 ## Un espace dédié à l'expérimentation
 
-- Travail uniquement sur **des données ouvertes**  
+- Travail uniquement sur **des données ouvertes et non sensibles**  
 - Hébergement d'hackatons  
 - Déploiement de dataviz'  
 ...
+
+## Bibliographie
+
+- La documentation du SSP Cloud est accessible [sur cette page](https://docs.sspcloud.fr/).
