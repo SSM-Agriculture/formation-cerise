@@ -1,6 +1,6 @@
 ---
-title: "Formation-cerise"
-subtitle: "Prise en main de l'environnement de travail Cerise"
+title: "Formation"
+subtitle: "Connaissance et prise en main des outils de traitement de données"
 date: today
 date-format: "DD/MM/YYYY"
 author: "SSP/DEMESIS"
