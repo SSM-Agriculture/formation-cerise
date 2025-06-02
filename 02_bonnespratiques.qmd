@@ -118,6 +118,7 @@ Plusieurs avantages :
 ## Comparatif des formats de fichier de données
 
 ![](img/comparatif_format_donnees.png){fig-align="center"}
+
 ## Recommandations selon le contexte
 
 ![](img/cas_usage_format_donnees.png){fig-align="center"}
