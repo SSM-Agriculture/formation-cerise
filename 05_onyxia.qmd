@@ -22,7 +22,9 @@ Un Datalab dimensionné pour les usages innovants
 
 - Même chose pour **le stockage des données** : la solution de stockage de fichiers associée au Datalab est **MinIO**, un système de stockage d’objets basé sur le cloud, compatible avec **l’API S3 d’Amazon**. 
 
+## Aperçu du catalogue de services
 
+![](img/services_onyxia.png){fig-align="center"}
 
 ## Un espace dédié à l'expérimentation
 
