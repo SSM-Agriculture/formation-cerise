@@ -2,7 +2,7 @@
 
 ## Onyxia - SSP Cloud
 
-- Onyxia : une plateforme open source de traitement de données moderne développée par l'Insee  
+- Onyxia : une solution logicielle open source de traitement de données moderne développée par l'Insee  
 
 - SSP Cloud : une instance d'Onyxia déployée, maintenue et opérée par le SSP (Service Statistique Public)
 
@@ -16,7 +16,7 @@ Un Datalab dimensionné pour les usages innovants
 
 ## Remarques 
 
-- Le Datalab est une **plateform mutualisée** :  les ressources utilisées par les services sont partagées entre les différents utilisateurs.  
+- Le Datalab est une **plateforme mutualisée** :  les ressources utilisées par les services sont partagées entre les différents utilisateurs.  
 
 - **Pas de sauvegarde "classique" du code informatique** dans le Datalab => l'utilisation du contrôle de version avec Git est **obligatoire**.  
 

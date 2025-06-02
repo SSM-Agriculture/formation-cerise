@@ -3,7 +3,7 @@
 ## Demander de l'aide sur Cerise - Qui ?
 
 Les demandes d'assistances et les remontée de bugs sont à adresser à : 
-assistance.si-stat.sg@agriculture.gouv.fr.  
+<mailto:assistance.si-stat.sg@agriculture.gouv.fr>.  
 
 - Directement par mail;  
 - Via [cette page](https://orion.agriculture/confluence/display/CER/Portail+d%27assistance+Cerise) en cliquant sur le bouton : 
@@ -27,7 +27,7 @@ Essayez autant que possible de suivre les conseils contenus dans [cette page](ht
 
 <br>  
 
-[Votre demande sera d'autant plus vite traitée que celle-ci sera facilement reproductible par l'équipe d'assistance]{.full-width .content-box-yellow}.  
+[Votre demande sera d'autant plus vite traitée que celle-ci sera facilement reproductible par l'équipe d'assistance.]{.full-width .content-box-yellow} 
 
 ## Mise à disposition plateforme de test
 
@@ -39,5 +39,5 @@ Essayez autant que possible de suivre les conseils contenus dans [cette page](ht
   
 [Contexte de test :]{.green}  
   - Habilitations : Iso-production  
-  - Système de fichiers / arborescence couramment synchronisé avec Cerise de PROD  
+  - Système de fichiers / arborescence irrégulièrement synchronisé avec Cerise de PROD  
   - Tests ouverts à tous les utilisateurs Cerise

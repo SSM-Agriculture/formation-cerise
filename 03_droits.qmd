@@ -8,7 +8,7 @@ Pour les nouveaux arrivants, ce sont les responsables hiérarchiques qui demande
 
 La procédure à suivre est disponible sous Pistache [sur cette page](https://pistache.agriculture.rie.gouv.fr/procedure-a-appliquer-lors-de-tout-mouvement-d-agents-au-sein-du-ssm-a7768.html).  
 
-Pour toutes les autres habilitations supplémentaires au fil de l'eau qui concernent Cerise, vous pouvez faire une demande à la BAL d'assistance : assistance.si-stat.sg@agriculture.gouv.fr
+Pour toutes les autres habilitations supplémentaires au fil de l'eau qui concernent Cerise, vous pouvez faire une demande à la BAL d'assistance : <mailto:assistance.si-stat.sg@agriculture.gouv.fr>
 
 ## Matrice des habilitations
 
@@ -19,11 +19,11 @@ Pour toutes les autres habilitations supplémentaires au fil de l'eau qui concer
 Des ACL (Access Control List) sont appliqués dans Cerise.  
 Il s'agit d'un mécanisme de gestion des droits qui permet de définir qui peut accéder à quelles ressources et avec quels niveaux de permissions.  
 
-Côté utilisateurs, cela implique quelques règles d'usage à suivre - pour éviter notamment la non-modification d'un dossier/fichier par vos collègues.  
+Côté utilisateurs, cela implique quelques règles d'usage à suivre — pour éviter notamment la non-modification d'un dossier/fichier par vos collègues.  
 
 ::: callout-important
 ## Règle générale : 
 
-Ne pas faire "Deplacer..." des dossiers/fichiers depuis son espace personnel vers un espace de partage mais faire un "Copier vers ..."
+Ne pas faire "Déplacer..." des dossiers/fichiers depuis son espace personnel vers un espace de partage mais faire un "Copier vers ..."
 :::
 
