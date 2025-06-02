@@ -1,5 +1,7 @@
 project:
   title: "Formation-Cerise"
+  render:
+    - "index.qmd"
     
 format:
   masa-default-revealjs: default
