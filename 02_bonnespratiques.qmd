@@ -127,20 +127,6 @@ Plusieurs avantages :
 
 Format intermédiaire d'application (le plus rapide) : {fst}
 
-
-## Recommandations selon le contexte
-
-| Cas d'usage | Format conseillé |
-|-------------|------------------|
-| Volume important, usage mutualisé, scalable | Parquet |
-| Persistance R native, mono-objet | RDS |
-| Sauvegarde complète d'environnement | RData |
-| Échange simple, manuel, petit volume | CSV |
-
-
-Archive à long terme : CSV avec son dictionnaire des données
-
-
 ## Résumé des propriétés des différents formats
 
 - CSV  
@@ -158,5 +144,14 @@ Archive à long terme : CSV avec son dictionnaire des données
    Format natif optimisé pour un seul objet R.  
    Très bon compromis pour la persistance simple et performante en R pur.  
 
+## Recommandations selon le contexte
+
+| Cas d'usage | Format conseillé |
+|-------------|------------------|
+| Volume important, usage mutualisé, scalable | Parquet |
+| Persistance R native, mono-objet | RDS |
+| Sauvegarde complète d'environnement | RData |
+| Échange simple, manuel, petit volume | CSV |
 
 
+Archive à long terme : CSV avec son dictionnaire des données
