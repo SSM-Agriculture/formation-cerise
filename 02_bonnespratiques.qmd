@@ -60,7 +60,7 @@ Au S2 2025, il est prévu de limiter le nombre de sessions en parallèle par uti
 
 - Pour **charger** vers Cerise des fichiers depuis votre poste en local :  
 
-Cliquer sur le bouton "upload" dans l'onglet "Files"  
+Cliquer sur le bouton "upload/télécharger" dans l'onglet "Files/Fichiers"  
 
 ![](img/charger_cerise.png){fig-align="center"}
 
@@ -140,7 +140,7 @@ Format intermédiaire d'application (le plus rapide) : {fst}
 - CSV  
     Très facile à manipuler manuellement, mais inefficace pour les gros volumes.  
     Pas de support natif pour les types de données (dates, facteurs).  
-    I/O très lente en R pour de grands volumes.  
+    Import/Export très lents en R pour de grands volumes.  
 - Parquet  
     Requiert le package {arrow} en R.  
     Lecture partielle possible (par colonne ou ligne).  
