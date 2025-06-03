@@ -163,3 +163,11 @@ Format intermédiaire d'application (le plus rapide) : {fst}
 
 
 Archive à long terme : CSV avec son dictionnaire des données
+
+## Mise à disposition d'applications Shiny
+
+Pour certains cas métiers spécifiques et sous certaines contraintes (sécurité/performance/maintenabilité...), il est possible de déployer sur internet des applications web (R/Shiny) sur [shinyapps.io](https://shinyapps.io/).  
+
+Des précautions s'imposent et doivent être prises en compte en amont des développements par les bureaux métiers et/ou les SRISE.
+
+Nous invitons les équipes concernés de se rapprocher du BQIS pour plus d'informations.
