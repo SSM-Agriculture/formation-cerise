@@ -75,6 +75,12 @@ Cliquer sur la roue crantée dans l'onglet "Files"
 - Si vous souhaitez **charger** plusieurs fichiers en même temps sous Cerise, faire un fichier ZIP.  
 Son contenu sera ensuite automatiquement dézippé sous Cerise.  
 
+::: callout-cautioin
+## Pour information 
+
+Les administrateurs de Cerise n'ont pas la possibilité de mettre en place un filtre sur le type de fichiers qui sont chargés sur Cerise => veillez à ne pas télécharger n'importe quel type de fichier (exécutables par exemple).
+:::
+
 <br>  
 
 - Si vous souhaitez **télécharger** plusieurs fichiers depuis Cerise, RStudio Server va automatiquement les joindre dans un fichier ZIP sur votre poste en local.  
