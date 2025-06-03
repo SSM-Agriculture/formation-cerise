@@ -2,7 +2,7 @@
 
 ## Onyxia - SSP Cloud
 
-- Onyxia : une plateforme open source de traitement de données moderne développée par l'Insee  
+- Onyxia : une solution logicielle open source de traitement de données moderne développée par l'Insee  
 
 - SSP Cloud : une instance d'Onyxia déployée, maintenue et opérée par le SSP (Service Statistique Public)
 

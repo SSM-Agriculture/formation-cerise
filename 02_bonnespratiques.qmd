@@ -7,7 +7,7 @@ Comme tout espace partagé et mutualisé, il convient d'être économe en ressou
 Le DEMESIS a principalement 2 métriques en tête :  
 
 - **La consommation de mémoire vive (RAM)** : utile pour stocker les données en cours de traitement dans les sessions R.  
-- **La consommation de CPU (precesseur)** : reflète l'intensité des calculs demandés par une session R.
+- **La consommation de CPU (processeur)** : reflète l'intensité des calculs demandés par une session R.
 
 ## Gestion des ressources par les utilisateurs (1/2)
 
@@ -21,7 +21,7 @@ Voici quelques conseils pour limiter la consommation de mémoire sous Cerise :
 
 - **Nettoyer régulièrement sa mémoire vive**  
 
-Utiliser la fonction `gc()` pour libérer la mémoire occcupée inutilement par votre session.  
+Utiliser la fonction `gc()` pour libérer la mémoire occupée inutilement par votre session.  
 Ou via l'interface de RStudio :  
 
 ![](img/liberer_memoire.png){fig-align="center"}
@@ -29,7 +29,7 @@ Ou via l'interface de RStudio :
 Voir [cette page d'utilitr](https://book.utilitr.org/01_R_Insee/Fiche_utiliser_ressources.html) pour en savoir plus.
     
 - **Pour les données volumineuses, privilégier le format de fichier Parquet**  (voir plus loin)
-Voir [ici](https://ssm-agriculture.github.io/formation-R-perf-06-parquet/) pour en savoir plus et/ou vous inscrire aux annonces de formation du BQIS.
+  Voir [ici](https://ssm-agriculture.github.io/formation-R-perf-06-parquet/) pour en savoir plus et/ou vous inscrire aux annonces de formation du BQIS.
 
 ## Gestion des sessions (1/2)
 
@@ -42,7 +42,7 @@ Voir [ici](https://ssm-agriculture.github.io/formation-R-perf-06-parquet/) pour 
 ## Gestion des sessions (2/2)
 
 - Dans la colonne de gauche de l'écran des sessions, vous trouverez vos sessions ouvertes.  
-- Dans la colonne de droite de l'écran des sessions, vous trouvez les différents projets que vous avez récemment utilisés.  
+- Dans la colonne de droite de l'écran des sessions, vous trouvez les différents projets que vous récemment utilisés.  
 
 
 **Chaque session est indépendante des autres.** Si vous avez lancé un long traitement dans une session, celle-ci est occupée et non-réactive le temps du traitement, mais vous pouvez continuer à travailler normalement dans les autres sessions.
@@ -112,21 +112,29 @@ Plusieurs avantages :
 - Organisation claire  
 - Gestion des chemins d'accès portable  
 - Reproductibilité  
-- Isolation des environnements (avec renv)  
+- Isolation des environnements (avec {renv})  
 - Intégration avec Git ...
 
-## Recommandations selon le contexte
 
-![](img/cas_usage_format_donnees.png){fig-align="center"}
+## Comparatif des formats de fichier de données
 
-## Propriétés des différents formats
+| Format | Taille du fichier | Utilisation mémoire | Vitesse écriture | Vitesse lecture |
+|--------|-------------------|---------------------|------------------|-----------------|
+| Parquet | ✅ Faible (colonnes compressées, binaire) | ✅ Faible (lecture par lot, colonnes ciblées) | ⚠️ Écriture plus lente (compression + formatage) | 🚀 Très rapide |
+| RDS | ✅ Moyenne à faible (compressé, un seul objet) | ⚠️ Modérée (lecture directe d'un objet) | ✅ Rapide (compresse par défaut) | ✅ Rapide (pour un seul objet) |
+| RData | ⚠️ Moyenne à faible (compressé, contient plusieurs objets) | ❌ Moyenne à élevée (charge tous les objets en mémoire) | ✅ Relativement rapide | ⚠️ Lecture rapide mais tout est chargé (peu flexible) |
+| CSV | ❌ Très grande (non compressé, texte brut) | ❌ Élevée (tout doit être parsé, conversion de type) | ✅ Rapide à écrire, peu coûteux | 🐢 Lent, très coûteux en ressources |
+
+Format intermédiaire d'application (le plus rapide) : {fst}
+
+## Résumé des propriétés des différents formats
 
 - CSV  
     Très facile à manipuler manuellement, mais inefficace pour les gros volumes.  
     Pas de support natif pour les types de données (dates, facteurs).  
     I/O très lente en R pour de grands volumes.  
 - Parquet  
-    Requiert le package "arrow" en R.  
+    Requiert le package {arrow} en R.  
     Lecture partielle possible (par colonne ou ligne).  
     Excellent pour la mutualisation, le cloud, ou les flux inter-langages (Python, Spark…).  
 - RData  
@@ -136,7 +144,14 @@ Plusieurs avantages :
    Format natif optimisé pour un seul objet R.  
    Très bon compromis pour la persistance simple et performante en R pur.  
 
-## Comparatif des formats de fichier de données
+## Recommandations selon le contexte
 
-![](img/comparatif_format_donnees.png){fig-align="center"}
+| Cas d'usage | Format conseillé |
+|-------------|------------------|
+| Volume important, usage mutualisé, scalable | Parquet |
+| Persistance R native, mono-objet | RDS |
+| Sauvegarde complète d'environnement | RData |
+| Échange simple, manuel, petit volume | CSV |
 
+
+Archive à long terme : CSV avec son dictionnaire des données
