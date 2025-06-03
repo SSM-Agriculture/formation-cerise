@@ -75,7 +75,7 @@ Cliquer sur la roue crantée dans l'onglet "Files"
 - Si vous souhaitez **charger** plusieurs fichiers en même temps sous Cerise, faire un fichier ZIP.  
 Son contenu sera ensuite automatiquement dézippé sous Cerise.  
 
-::: callout-cautioin
+::: callout-caution
 ## Pour information 
 
 Les administrateurs de Cerise n'ont pas la possibilité de mettre en place un filtre sur le type de fichiers qui sont chargés sur Cerise => veillez à ne pas télécharger n'importe quel type de fichier (exécutables par exemple).
