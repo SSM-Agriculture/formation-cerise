@@ -57,7 +57,7 @@ Des admins Cerise qui vous surveillent {{< fa face-smile-wink >}}
 |-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | RStudio     | 2024.09  « Cranberry Hibiscus »                                                                                                                                                                                      |
 | R_Base_Core | R 4.2.3 – 2023-03-15<br>R 4.4.1 – 2024-06-15                                                                                                                                                                         |
-| Packages    | R 4.2.3 – 2023-03-15<br>Nombre de packages disponibles : 18839<br>Nombre de packages installés   :   770<br>R 4.4.1  – 2024-06-15<br>Nombre de packages disponibles : 20946<br>Nombre de packages installés   :   13487 |
+| Packages    | R 4.2.3 – 2023-03-15<br>Nombre de packages disponibles : 18839<br>Nombre de packages installés   :   805<br>R 4.4.1  – 2024-06-15<br>Nombre de packages disponibles : 20946<br>Nombre de packages installés   :   13487 |
 
 ## Organisation de Cerise (1/2)
 
