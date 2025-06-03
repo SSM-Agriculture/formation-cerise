@@ -104,6 +104,8 @@ Une bonne pratique pour limiter les demandes de restauration de fichiers est de 
 
 Un module de formation est disponible [à cette adresse](https://ssm-agriculture.github.io/formation-git/), n'hésitez pas à vous y inscrire !  
 
+Pour ceux d'entre vous déjà formés et qui souhaitent configurer Cerise avec Gitlab, suivre [ce tutoriel](https://github.com/user-attachments/files/19664705/Tutoriel.-.Configuration.d.une.connexion.Cerise_Gitlab.pdf).
+
 ## Utilisation du mode projet
 
 Il est recommandé d'utiliser **le mode projet** le plus souvent possible.  
