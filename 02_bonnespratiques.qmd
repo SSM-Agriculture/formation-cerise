@@ -183,4 +183,11 @@ Nous invitons les équipes concernés de se rapprocher du BQIS pour plus d'infor
 - Éviter les `setwd()`  
 - Construire les chemins avec `here::here()` ou `fs::path_home()` par exemple
     
-    
+## Recommandations générales
+
+- Éviter les `rm(list = ls())`  
+- Privilégier l'écosystème **Tidyverse** avec ses packages et l'utlisation du `|>`  
+- Utiliser le [guide de style du Tidyverse](https://style.tidyverse.org/) pour favoriser la lisibilité/cohérence/maintenabilité de votre code R. En particulier, pensez à :  
+    - Indenter le code  
+    - Aérer le code  
+    - Utiliser la convention snake_case (`date_naissance`)  ...
