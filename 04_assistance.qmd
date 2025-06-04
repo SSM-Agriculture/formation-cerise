@@ -1,6 +1,6 @@
 # Assistance {.backgroundTitre}
 
-## Demander de l'aide sur Cerise - Qui ?
+## À qui demander de l'aide sur Cerise/R ?
 
 Les demandes d'assistances et les remontée de bugs sont à adresser à : 
 <mailto:assistance.si-stat.sg@agriculture.gouv.fr>.  
@@ -23,15 +23,18 @@ Les demandes d'assistances et les remontée de bugs sont à adresser à :
 
 ## Comment demander de l'aide sur R ?
 
-Essayez autant que possible de suivre les conseils contenus dans [cette page](https://book.utilitr.org/03_Fiches_thematiques/Fiche_resoudre_un_probleme.html#comment-r%25C3%25A9diger-sa-question) ou [celle-ci](https://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example) avant de poser votre question.
+Essayez autant que possible de suivre les conseils contenus dans [cette page](https://book.utilitr.org/03_Fiches_thematiques/Fiche_resoudre_un_probleme.html#comment-r%25C3%25A9diger-sa-question) ou [celle-ci](https://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example) avant de poser votre question. Celle-ci doit contenir les éléments suivants :
 
-<br>  
+- Une description en une phrase du problème que vous rencontrez  
+- Le code de l’exemple minimal reproductible  
+- Ce que vous obtenez (données, messages d’erreur éventuels dans les logs)  
+- Ce que vous aimeriez obtenir.  
+    
 
 [Votre demande sera d'autant plus vite traitée que celle-ci sera facilement reproductible par l'équipe d'assistance.]{.full-width .content-box-yellow} 
 
-- Lien vers le canal Tchap R inter-ministériel : https://tchap.gouv.fr/#/room/#RdIezwNF:agent.finances.tchap.gouv.fr  
-- Lien vers le forum R du SSP : https://agriculture.forums.listes.m2.e2.rie.gouv.fr/sympa/arc/forum-r  
-- Utiliser l'IA peut être utile...
+- Lien vers le canal [Tchap R inter-ministériel](https://tchap.gouv.fr/#/room/#RdIezwNF:agent.finances.tchap.gouv.fr)    
+- Lien vers [le forum R du SSP](https://agriculture.forums.listes.m2.e2.rie.gouv.fr/sympa/arc/forum-r) 
 
 ## Mise à disposition plateforme de test
 
