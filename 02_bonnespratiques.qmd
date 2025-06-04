@@ -171,3 +171,16 @@ Pour certains cas métiers spécifiques et sous certaines contraintes (sécurit�
 Des précautions s'imposent et doivent être prises en compte en amont des développements par les bureaux métiers et/ou les SRISE.
 
 Nous invitons les équipes concernés de se rapprocher du BQIS pour plus d'informations.
+
+## Gestion des chemins
+
+- Il est possible d'accéder **à la racine de Cerise** avec (au choix) :  
+    - Le lien symbolique `~/CERISE`  
+    - Le lien symbolique `/root_cerise/`  
+    - Le chemin physique `var/data/nfs/CERISE/`  
+    - L'instruction `fs::path_home("CERISE")`  
+    
+- Éviter les `setwd()`  
+- Construire les chemins avec `here::here()` ou `fs::path_home()` par exemple
+    
+    
