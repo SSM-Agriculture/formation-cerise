@@ -133,7 +133,7 @@ Remarque : soyez économes dans l'utilisation de votre espace personnel. À ne r
 
 ![](img/version_R.png){fig-align="center"}  
 
-- Pour éviter le risque de perdre votre code R pendant une interruption Cerise, il est recommandé de cocher ces 2 cases accessibles dans le menu de RStudio > Outils > Options globales > Onglet Sauvegarder.  
+- Pour éviter le risque de perdre votre code R pendant une interruption Cerise, il est recommandé de cocher ces 2 cases accessibles dans le menu de RStudio > Outils > Options globales > Code > Onglet Sauvegarder.  
 Si vous consultez/testez le code d'un collègue, soyez vigilant avec cette option qui peut enregistrer des modifications par mégarde.
 
 ![](img/autosave.png){fig-align="center"}
