@@ -47,4 +47,6 @@ Essayez autant que possible de suivre les conseils contenus dans [cette page](ht
 [Contexte de test :]{.green}  
   - Habilitations : Iso-production  
   - Système de fichiers / arborescence irrégulièrement synchronisé avec Cerise de PROD  
-  - Tests ouverts à tous les utilisateurs Cerise
+  - Tests ouverts à tous les utilisateurs Cerise  
+  
+Alimentation des données d'enquêtes Capibara activées à la demande par le BQIS.
