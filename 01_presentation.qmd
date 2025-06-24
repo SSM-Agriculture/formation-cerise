@@ -32,7 +32,9 @@ Des admins Cerise qui vous surveillent {{< fa face-smile-wink >}}
 
 ![](img/adm_cerise.png){fig-align="center"}
 
+## Schéma d'architecture de Cerise
 
+![](img/Archi_generale_CERISE.png){fig-align="center"}  
 
 ## Mises à jour Cerise
 
@@ -132,8 +134,8 @@ Remarque : soyez économes dans l'utilisation de votre espace personnel. À ne r
 - Pour sélectionner une version R_Base, il faut la sélectionner **en haut à droite dans la fenêtre RStudio**  
 
 ![](img/version_R.png){fig-align="center"}  
-
 - Pour éviter le risque de perdre votre code R pendant une interruption Cerise, il est recommandé de cocher ces 2 cases accessibles dans le menu de RStudio > Outils > Options globales > Code > Onglet Sauvegarder.  
 Si vous consultez/testez le code d'un collègue, soyez vigilant avec cette option qui peut enregistrer des modifications par mégarde.
 
 ![](img/autosave.png){fig-align="center"}
+
