@@ -59,7 +59,7 @@ Au S2 2025, il est prévu de limiter le nombre de sessions en parallèle par uti
 ## Chargement/Téléchargement de fichiers Cerise (1/2)
 
 - Pour **charger** vers Cerise des fichiers depuis votre poste en local :  
-    - Sur votre PC en local, faire un zip qui contient les fichiers à uploader (même si le fichier est unique)  
+    - Sur votre PC en local, faire un zip qui contient les fichiers à uploader (même si le fichier est unique). Cela permet d'affecter les "[bons droits](#rendre-un-dossier-ou-un-fichier-modifiable-par-vos-collègues)" sur ces fichiers (notamment qu'ils soient modifiables par d'autres agents).  
     - Cliquer sur le bouton "upload/télécharger" dans l'onglet "Files/Fichiers"  
 
 ![](img/charger_cerise.png){fig-align="center"}
