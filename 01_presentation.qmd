@@ -32,10 +32,6 @@ Des admins Cerise qui vous surveillent {{< fa face-smile-wink >}}
 
 ![](img/adm_cerise.png){fig-align="center"}
 
-## Schéma d'architecture de Cerise
-
-![](img/Archi_generale_CERISE.png){fig-align="center"}  
-
 ## Mises à jour Cerise
 
 - [**R**]{.blue}
