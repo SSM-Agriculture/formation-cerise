@@ -2,8 +2,7 @@
 
 ## À qui demander de l'aide sur Cerise/R ?
 
-Les demandes d'assistances et les remontée de bugs sont à adresser à : 
-<mailto:assistance.si-stat.sg@agriculture.gouv.fr>.  
+Les demandes d'assistances et les remontées de bugs sont à adresser à la BAL d'assistance.
 
 - Directement par mail;  
 - Via [cette page](https://orion.agriculture/confluence/display/CER/Portail+d%27assistance+Cerise) en cliquant sur le bouton : 
