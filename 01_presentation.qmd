@@ -50,7 +50,7 @@ Des admins Cerise qui vous surveillent {{< fa face-smile-wink >}}
     Dernière version stable mise à disposition par l'éditeur (au moment de la réalisation de septembre/octobre de l'année N-1)
     
 - [**Packages**]{.blue}
-    - La liste des packages R valides et compatibles à une date donnée sont mis à disposition dans le Data Center du MASA.
+    - La liste des packages R valides et compatibles à une date donnée sont mis à disposition dans le Data Center du SSM Agriculture.
     - Une liste pré-établie de packages est préinstallée sur CERISE pour chacune des version R_Base
 
 ## Cerise en 2025

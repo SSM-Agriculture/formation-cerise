@@ -5,7 +5,7 @@ date: today
 date-format: "DD/MM/YYYY"
 author: "SSP/DEMESIS"
 description: |
-  Support de formation Cerise et Onyxia du MASA
+  Support de formation Cerise et Onyxia du SSM Agriculture
 slide-tone: false # for blind readers
 chalkboard: false # press the B key to toggle chalkboard
 transition: slide
@@ -41,11 +41,11 @@ Déroulement demi-journée :
 
 Ce diaporama de formation a été rédigé dans le but d'être le support
 visuel des formations dispensées au
-[MASA](https://agreste.agriculture.gouv.fr/).
+[SSM Agriculture](https://agreste.agriculture.gouv.fr/).
 
 Cette formation s'adresse à tous les nouveaux arrivants au SSM Agriculture qui seront amenés à manipuler des données sous Cerise ou sous Onyxia. Elle est dispensée en distanciel sur une **demi-journée**.
 
-Ce support ne se substitue pas [aux formations R dispensées par les formateurs du MASA](https://ssm-agriculture.github.io/site-formations-R/).  
+Ce support ne se substitue pas [aux formations R dispensées par les formateurs du SSM Agriculture](https://ssm-agriculture.github.io/site-formations-R/).  
 Il permet aux nouveaux agents ayant déjà pratiqué R dans un autre contexte de **découvrir les spécificités de Cerise et d'en faire un bon usage**.
 
 {{< include 01_presentation.qmd >}}

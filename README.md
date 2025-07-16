@@ -4,7 +4,7 @@
 
 # Formation Prise en main de l'environnement Cerise <img src="img/cerise_logo.png" width=90 align="right"/>
 
-Support de présentation pour prendre en main l'environnement de travail (et de formation) nommé Cerise au [MASA](https://agriculture.gouv.fr/).
+Support de présentation pour prendre en main l'environnement de travail (et de formation) nommé Cerise au [SSM Agriculture](https://agriculture.gouv.fr/).
 
 *Cerise : Consolidation Et Restitution de l'Information StatistiquE*
 
