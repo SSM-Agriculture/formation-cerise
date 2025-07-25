@@ -128,15 +128,15 @@ Plusieurs avantages :
 
 | Format | Taille du fichier | Utilisation mémoire | Vitesse écriture | Vitesse lecture |
 |--------|-------------------|---------------------|------------------|-----------------|
-| Parquet | ✅ Faible (colonnes compressées, binaire) | ✅ Faible (lecture par lot, colonnes ciblées) | ⚠️ Écriture plus lente (compression + formatage) | 🚀 Très rapide |
 | RDS | ✅ Moyenne à faible (compressé, un seul objet) | ⚠️ Modérée (lecture directe d'un objet) | ✅ Rapide (compresse par défaut) | ✅ Rapide (pour un seul objet) |
-| RData | ⚠️ Moyenne à faible (compressé, contient plusieurs objets) | ❌ Moyenne à élevée (charge tous les objets en mémoire) | ✅ Relativement rapide | ⚠️ Lecture rapide mais tout est chargé (peu flexible) |
 | CSV | ❌ Très grande (non compressé, texte brut) | ❌ Élevée (tout doit être parsé, conversion de type) | ✅ Rapide à écrire, peu coûteux | 🐢 Lent, très coûteux en ressources |
-
-Format intermédiaire d'application (le plus rapide) : {fst}
+| Parquet | ✅ Faible (colonnes compressées, binaire) | ✅ Faible (lecture par lot, colonnes ciblées) | ⚠️ Écriture plus lente (compression + formatage) | 🚀 Très rapide |
 
 ## Résumé des propriétés des différents formats
 
+- RDS  
+   Format natif optimisé pour un seul objet R.  
+   Très bon compromis pour la persistance simple et performante en R pur.  
 - CSV  
     Très facile à manipuler manuellement, mais inefficace pour les gros volumes.  
     Pas de support natif pour les types de données (dates, facteurs).  
@@ -144,25 +144,16 @@ Format intermédiaire d'application (le plus rapide) : {fst}
 - Parquet  
     Requiert le package {arrow} en R.  
     Lecture partielle possible (par colonne ou ligne).  
-    Excellent pour la mutualisation, le cloud, ou les flux inter-langages (Python, Spark…).  
-- RData  
-    Sauvegarde plusieurs objets, utile pour des environnements complexes.  
-    Inadapté pour charger sélectivement un seul objet dans un gros fichier.  
-- RDS  
-   Format natif optimisé pour un seul objet R.  
-   Très bon compromis pour la persistance simple et performante en R pur.  
+    Excellent pour la mutualisation, le cloud, ou les flux inter-langages.  
 
 ## Recommandations selon le contexte
 
 | Cas d'usage | Format conseillé |
 |-------------|------------------|
-| Volume important, usage mutualisé, scalable | Parquet |
 | Persistance R native, mono-objet | RDS |
-| Sauvegarde complète d'environnement | RData |
 | Échange simple, manuel, petit volume | CSV |
+| Volume important, usage mutualisé, scalable | Parquet |
 
-
-Archive à long terme : CSV avec son dictionnaire des données
 
 ## Mise à disposition d'applications Shiny
 
