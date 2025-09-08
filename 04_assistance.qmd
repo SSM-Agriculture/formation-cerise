@@ -1,5 +1,11 @@
 # Assistance {.backgroundTitre}
 
+## Module débogage
+
+Un module d'auto-formation est disponible à cette adresse : https://ssm-agriculture.github.io/formation_debug/#/title-slide.   
+
+Cette présentation vous présente quelques outils que vous avez déjà à disposition sous votre RStudio sur Cerise afin de vous aider à **trouver par vous-même la source de vos bugs**.  
+
 ## À qui demander de l'aide sur Cerise/R ?
 
 Les demandes d'assistances et les remontées de bugs sont à adresser à la BAL d'assistance.
