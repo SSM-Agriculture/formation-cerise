@@ -35,4 +35,5 @@ Un Datalab dimensionné pour les usages innovants
 
 ## Bibliographie
 
+- Lien vers [Onyxia](assistance.si-stat.sg@agriculture.gouv.fr).  
 - La documentation du SSP Cloud est accessible [sur cette page](https://docs.sspcloud.fr/).
