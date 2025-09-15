@@ -42,7 +42,7 @@ Voir [cette page d'utilitr](https://book.utilitr.org/01_R_Insee/Fiche_utiliser_r
 ## Gestion des sessions (2/2)
 
 - Dans la colonne de gauche de l'écran des sessions, vous trouverez vos sessions ouvertes.  
-- Dans la colonne de droite de l'écran des sessions, vous trouvez les différents projets que vous récemment utilisés.  
+- Dans la colonne de droite de l'écran des sessions, vous trouvez les différents projets que vous avez récemment utilisés.  
 
 
 **Chaque session est indépendante des autres.** Si vous avez lancé un long traitement dans une session, celle-ci est occupée et non-réactive le temps du traitement, mais vous pouvez continuer à travailler normalement dans les autres sessions.
