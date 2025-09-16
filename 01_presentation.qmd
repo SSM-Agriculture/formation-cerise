@@ -1,76 +1,138 @@
+---
+editor: 
+  markdown: 
+    wrap: 72
+---
+
 # Présentation {.backgroundTitre}
 
 ## C'est quoi Cerise ?
 
 **CERISE : Consolidation Et Restitution de l’Information StatistiquE**
 
-[Cerise contient l'ensemble des données et des programmes R utilisés par le SSM Agriculture.]{.red}
+[Cerise contient l'ensemble des données et des programmes R utilisés par
+le SSM Agriculture.]{.red}
 
-Cerise est une plateforme qui repose sur la solution "Posit Workbench" commercialisée par la société du même nom "Posit". Elle offre une interface web pour utiliser RStudio dans un environnement multi-utilisateurs et sécurisé.
+Cerise est une plateforme qui repose sur la solution "Posit Workbench"
+commercialisée par la société du même nom "Posit". Elle offre une
+interface web pour utiliser RStudio dans un environnement
+multi-utilisateurs et sécurisé.
 
-**Cerise est accessible via votre navigateur via l'URL :** [https://rstudio.agriculture.rie.gouv.fr/](https://rstudio.agriculture.rie.gouv.fr/)  
+**Cerise est accessible via votre navigateur via l'URL :**
+<https://rstudio.agriculture.rie.gouv.fr/>
 
-=> À faire figurer dans vos favoris !
+=\> À faire figurer dans vos favoris !
 
 ## Avantages de Cerise
 
-**Cerise présente plusieurs avantages :**  
+**Cerise présente plusieurs avantages :**
 
-- Accès aux données du SSM Agriculture (enquêtes, nomenclatures, fichiers externes...)  
-- Montée de versions régulière (Workbench / R / Packages)  
-- Sécurité /conformité  
-- Support Centre de Service et assistance BQIS garantis
+-   Accès aux données du SSM Agriculture (enquêtes, nomenclatures,
+    fichiers externes...)\
+-   Montée de versions régulière (Workbench / R / Packages)\
+-   Sécurité /conformité\
+-   Support Centre de Service et assistance BQIS garantis
+
+## Historique des versions
+
+-   **2015** : CERISE V1 : Interface de développement SPSS
+-   **2019** : CERISE V2 : Intégration de Rstudio, gestion de fichiers
+    GlusterFS
+-   **2023** : CERISE V3 : Intégration gestion de sources NFS-4
+-   **2026** : CERISE V3+: Augmentation des ressources de la plateforme (1
+    To Ram)
+
+## Architecture générale
+
+Cette plateforme est composée de briques standards au sein du MASA:
+
+-   Autorité d'authentification
+
+-   Des serveurs R utilisés pour les batchs et tâches planifiées
+
+-   Des serveurs RStudio permettant de developpement des programmes R
+
+-   Un système de gestion de fichiers
+
+Elle s'appuie également sur les offres du Centre de Services MASA:
+
+-   Gestion des sauvegardes systèmes
+
+-   Une Forge Gitlab
+
+-   Un Ordonnanceur
+
+-   Un dépot pour accéder au CRAN
 
 ## Ressources Cerise
 
-- 160 Go RAM  
-- 30 processeurs virtuels  
-- Plus de 400 utilisateurs distincts  
-- 80 sessions simultanées en moyenne
+-   160 Go RAM\
+-   30 processeurs virtuels\
+-   Plus de 400 utilisateurs distincts\
+-   80 sessions simultanées en moyenne
 
-Des admins Cerise qui vous surveillent {{< fa face-smile-wink >}} 
+Des admins Cerise qui vous surveillent {{< fa face-smile-wink >}}
 
 ![](img/adm_cerise.png){fig-align="center"}
 
 ## Mises à jour Cerise
 
-- [**R**]{.blue}
-    - Une **montée de version** annuelle de R_Base  
-    Le DéMéSIS met à disposition 2 versions de R_base :
+-   [**R**]{.blue}
 
-        - [Suppression de la version la plus ancienne présente l'année N-1 sur CERISE]{.red}
-        - [Reconduction de la version la plus récente présente l'année N-1 sur CERISE]{.orange}
-        - [Ajout de la dernière version stable mise à disposition sur le CRAN]{.green}
-        
-- [**RStudio**]{.blue}  
-    Dernière version stable mise à disposition par l'éditeur (au moment de la réalisation de septembre/octobre de l'année N-1)
-    
-- [**Packages**]{.blue}
-    - La liste des packages R valides et compatibles à une date donnée sont mis à disposition dans le Data Center du SSM Agriculture.
-    - Une liste pré-établie de packages est préinstallée sur CERISE pour chacune des version R_Base
+    -   Une **montée de version** annuelle de R_Base\
+        Le DéMéSIS met à disposition 2 versions de R_base :
+
+        -   [Suppression de la version la plus ancienne présente l'année
+            N-1 sur CERISE]{.red}
+        -   [Reconduction de la version la plus récente présente l'année
+            N-1 sur CERISE]{.orange}
+        -   [Ajout de la dernière version stable mise à disposition sur
+            le CRAN]{.green}
+
+-   [**RStudio**]{.blue}\
+    Dernière version stable mise à disposition par l'éditeur (au moment
+    de la réalisation de septembre/octobre de l'année N-1)
+
+-   [**Packages**]{.blue}
+
+    -   La liste des packages R valides et compatibles à une date donnée
+        sont mis à disposition dans le Data Center du SSM Agriculture.
+    -   Une liste pré-établie de packages est préinstallée sur CERISE
+        pour chacune des version R_Base
 
 ## Cerise en 2025
-| Composant   | Version actuelle                                                                                                                                                                                                      | Version à venir                                                                                                                                                                    |
-|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| RStudio     | 2024.09  « Cranberry Hibiscus »                                                                                                                                                                                       | 2025.09  « Cucumberleaf Sunflower »                                                                                                                                                |
-| Packages    | R 4.2.3 – 2023-03-15<br>Nombre de packages disponibles : 18839<br>Nombre de packages installés   :   803<br>R 4.4.1  – 2024-06-15<br>Nombre de packages disponibles : 20944<br>Nombre de packages installés   :   814 | R 4.4.1 – 2024-06-15<br>Nombre de packages disponibles : 20944<br>Nombre de packages installés   :   814<br><br>R 4.5.1 – 2025-06-13<br>Nombre de packages disponibles : 22505 |
-| R_Base_Core | R 4.2.3 – 2023-03-15<br>R 4.4.1 – 2024-06-15                                                                                                                                                                          | R 4.4.1 – 2024-06-15<br>R 4.5.1 – 2025-06-13                                                                                                                                       |
+
+| Composant | Version actuelle | Version à venir |
+|--------------|--------------------------------|--------------------------|
+| RStudio | 2024.09 « Cranberry Hibiscus » | 2025.09 « Cucumberleaf Sunflower » |
+| Packages | R 4.2.3 – 2023-03-15<br>Nombre de packages disponibles : 18839<br>Nombre de packages installés : 803<br>R 4.4.1 – 2024-06-15<br>Nombre de packages disponibles : 20944<br>Nombre de packages installés : 814 | R 4.4.1 – 2024-06-15<br>Nombre de packages disponibles : 20944<br>Nombre de packages installés : 814<br><br>R 4.5.1 – 2025-06-13<br>Nombre de packages disponibles : 22505 |
+| R_Base_Core | R 4.2.3 – 2023-03-15<br>R 4.4.1 – 2024-06-15 | R 4.4.1 – 2024-06-15<br>R 4.5.1 – 2025-06-13 |
 
 ## Organisation de Cerise (1/2)
 
 Cerise est organisé en plusieurs répertoires :
 
--   [**00-Espace-Personnel**]{.blue} =\> espaces personnels des agents, accessible par l’agent uniquement
+-   [**00-Espace-Personnel**]{.blue} =\> espaces personnels des agents,
+    accessible par l’agent uniquement
 
--   [**01-Espace-de-Partage**]{.blue} =\> lieu de partage général (programmes/formation/outils...) entre les différents acteurs
+-   [**01-Espace-de-Partage**]{.blue} =\> lieu de partage général
+    (programmes/formation/outils...) entre les différents acteurs
 
--   [**02-Espace-de-Production**]{.blue} =\> plateforme de stockage des données brutes collectées, ainsi que des fichiers de données et programmes issus des traitements statistiques réalisés par l'équipe projet (voir image plus loin)
+-   [**02-Espace-de-Production**]{.blue} =\> plateforme de stockage des
+    données brutes collectées, ainsi que des fichiers de données et
+    programmes issus des traitements statistiques réalisés par l'équipe
+    projet (voir image plus loin)
 
--   [**03-Espace-de-Diffusion**]{.blue} =\> mise à disposition au sein du SSM des données issues des traitements statistiques réalisés en amont
+-   [**03-Espace-de-Diffusion**]{.blue} =\> mise à disposition au sein
+    du SSM des données issues des traitements statistiques réalisés en
+    amont
 
-*=\> Ces deux derniers espaces sont découpés par opérations statistiques*
+*=\> Ces deux derniers espaces sont découpés par opérations
+statistiques*
 
--   [**04-Espace-Echanges**]{.blue} =\> stockage des fichiers de données à transmettre aux autres applications du SI CASSIS (par exemple Agreste) ainsi qu'aux SI des partenaires extérieurs
+-   [**04-Espace-Echanges**]{.blue} =\> stockage des fichiers de données
+    à transmettre aux autres applications du SI CASSIS (par exemple
+    Agreste) ainsi qu'aux SI des partenaires extérieurs
 
 ## Organisation de Cerise (2/2)
 
@@ -78,15 +140,15 @@ Cerise est organisé en plusieurs répertoires :
 
 ## Focus sur l'espace de production (1/2)
 
-::: columns
+::::: columns
 ::: {.column width="60%"}
-- 1er niveau par **rubriques** (19 rubriques existantes)  
-  - 2ème niveau par **sources**  
-    - 3ème niveau par sous-répertoires millésimés  
+-   1er niveau par **rubriques** (19 rubriques existantes)
+    -   2ème niveau par **sources**
+        -   3ème niveau par sous-répertoires millésimés
 
-Exemple :  
+Exemple :
 
-```bash
+``` bash
 070_Production_lait/
 070_Production_lait/7010_Conj_lait
 070_Production_lait/7010_Conj_lait/EML_2018
@@ -102,35 +164,42 @@ Exemple :
 ::: {.column width="40%"}
 ![](img/espace_de_production.png){fig-align="center"}
 :::
-:::
-
+:::::
 
 ## Focus sur l'espace de production (2/2)
 
-Les différents groupes d'habilitations disposent des droits suivants :  
+Les différents groupes d'habilitations disposent des droits suivants :
 
-- **Utilisateur standard** : aucun  
-- **Chargé d'études** : lecture  
-- **Producteur de données** : lecture/écriture  
-- **Administrateur** : lecture/écriture
+-   **Utilisateur standard** : aucun\
+-   **Chargé d'études** : lecture\
+-   **Producteur de données** : lecture/écriture\
+-   **Administrateur** : lecture/écriture
 
 ## Accéder facilement à son espace personnel
 
-L'accès à l'espace personnel de Cerise peut être difficile lorsque vous êtes "perdus" dans l'arborescence riche de Cerise. Voici ci-dessous comment faire pour y accéder rapidement.  
+L'accès à l'espace personnel de Cerise peut être difficile lorsque vous
+êtes "perdus" dans l'arborescence riche de Cerise. Voici ci-dessous
+comment faire pour y accéder rapidement.
 
+![](img/acces_espace_perso.png){fig-align="center"}
 
-![](img/acces_espace_perso.png){fig-align="center"}  
-
-Remarque : soyez économes dans l'utilisation de votre espace personnel. À ne réserver que pour des expérimentations. Pas de recopie de données... 
+Remarque : soyez économes dans l'utilisation de votre espace personnel.
+À ne réserver que pour des expérimentations. Pas de recopie de
+données...
 
 ## Remarques et astuces sur Cerise
 
-- Pas d'explorateur de fichiers comme Windows sous Cerise. **La navigation dans l'arborescence se fait via le menu "Fichiers" ou "Files" de RStudio.**  
-- Pour sélectionner une version R_Base, il faut la sélectionner **en haut à droite dans la fenêtre RStudio**  
+-   Pas d'explorateur de fichiers comme Windows sous Cerise. **La
+    navigation dans l'arborescence se fait via le menu "Fichiers" ou
+    "Files" de RStudio.**\
+-   Pour sélectionner une version R_Base, il faut la sélectionner **en
+    haut à droite dans la fenêtre RStudio**
 
-![](img/version_R.png){fig-align="center"}  
-- Pour éviter le risque de perdre votre code R pendant une interruption Cerise, il est recommandé de cocher ces 2 cases accessibles dans le menu de RStudio > Outils > Options globales > Code > Onglet Sauvegarder.  
-Si vous consultez/testez le code d'un collègue, soyez vigilant avec cette option qui peut enregistrer des modifications par mégarde.
+![](img/version_R.png){fig-align="center"}\
+- Pour éviter le risque de perdre votre code R pendant une interruption
+Cerise, il est recommandé de cocher ces 2 cases accessibles dans le menu
+de RStudio \> Outils \> Options globales \> Code \> Onglet Sauvegarder.\
+Si vous consultez/testez le code d'un collègue, soyez vigilant avec
+cette option qui peut enregistrer des modifications par mégarde.
 
 ![](img/autosave.png){fig-align="center"}
-
