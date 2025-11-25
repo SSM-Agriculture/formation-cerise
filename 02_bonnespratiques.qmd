@@ -171,7 +171,6 @@ Nous invitons les équipes concernés de se rapprocher du BQIS pour plus d'infor
     - Le chemin physique `var/data/nfs/CERISE/`  
     - L'instruction `fs::path_home("CERISE")`  
     
-- Éviter les `setwd()`  
 - Construire les chemins avec `here::here()` ou `fs::path_home()` par exemple
     
 ## Recommandations générales
