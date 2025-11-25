@@ -4,7 +4,7 @@
 
 Comme tout espace partagé et mutualisé, il convient d'être économe en ressources sur Cerise.  
 
-Le DEMESIS a principalement 2 métriques en tête :  
+Le DéMéSIS a principalement 2 métriques en tête :  
 
 - **La consommation de mémoire vive (RAM)** : utile pour stocker les données en cours de traitement dans les sessions R.  
 - **La consommation de CPU (processeur)** : reflète l'intensité des calculs demandés par une session R.
@@ -35,7 +35,7 @@ Voir [cette page d'utilitr](https://book.utilitr.org/01_R_Insee/Fiche_utiliser_r
 
 - Quand vous vous connectez sur Cerise via l'adresse fournie - **si vous n'avez qu'une session d'ouverte** - Cerise vous place directement dedans (vous arrivez donc dans l'interface RStudio).
 
-- **A partir de 2 sessions ouvertes**, lorsque vous vous connectez à Cerise, vous allez arriver sur l'écran de gestion des sessions :  
+- **À partir de 2 sessions ouvertes**, lorsque vous vous connectez à Cerise, vous allez arriver sur l'écran de gestion des sessions :  
 
 ![](img/home_sessions.png){fig-align="center"}
 
@@ -65,14 +65,14 @@ Au S2 2025, il est prévu de limiter le nombre de sessions en parallèle par uti
 ![](img/charger_cerise.png){fig-align="center"}
 
 - Pour **télécharger** depuis Cerise vers votre poste en local :  
-
-Cliquer sur la roue crantée dans l'onglet "Files"
+  - Cocher le·s fichier·s
+  - Cliquer sur la roue crantée dans l'onglet "Files"
 
 ![](img/telecharger_cerise.png){fig-align="center"}
 
 ## Chargement/Téléchargement de fichiers Cerise (2/2)
 
-- Si vous souhaitez **charger** plusieurs fichiers en même temps sous Cerise, faire un fichier ZIP.  
+- Si vous souhaitez **charger** plusieurs fichiers en même temps vers Cerise, faire un fichier compressé ZIP.  
 Son contenu sera ensuite automatiquement dézippé sous Cerise.  
 
 ::: callout-caution
@@ -83,7 +83,7 @@ Les administrateurs de Cerise n'ont pas la possibilité de mettre en place un fi
 
 <br>  
 
-- Si vous souhaitez **télécharger** plusieurs fichiers depuis Cerise, RStudio Server va automatiquement les joindre dans un fichier ZIP sur votre poste en local.  
+- Si vous souhaitez **télécharger** en même temps plusieurs fichiers depuis Cerise, RStudio Server va automatiquement les joindre dans un fichier ZIP que vous récupérerez sur votre poste, en local.  
 
 ## Restauration des fichiers
 
@@ -168,7 +168,7 @@ Nous invitons les équipes concernés de se rapprocher du BQIS pour plus d'infor
 - Il est possible d'accéder **à la racine de Cerise** avec (au choix) :  
     - Le lien symbolique `~/CERISE`  
     - Le lien symbolique `/root_cerise/`  
-    - Le chemin physique `var/data/nfs/CERISE/`  
+    - Le chemin physique `var/data/nfs/CERISE/` (moins portable) 
     - L'instruction `fs::path_home("CERISE")`  
     
 - Construire les chemins avec `here::here()` ou `fs::path_home()` par exemple

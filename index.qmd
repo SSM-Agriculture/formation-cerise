@@ -3,7 +3,7 @@ title: "Formation"
 subtitle: "Connaissance et prise en main des outils de traitement de données"
 date: today
 date-format: "DD/MM/YYYY"
-author: "SSP/DEMESIS"
+author: "SSP/DéMéSIS"
 description: |
   Support de formation Cerise et Onyxia du SSM Agriculture
 slide-tone: false # for blind readers

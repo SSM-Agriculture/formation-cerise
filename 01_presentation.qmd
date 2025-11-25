@@ -29,18 +29,17 @@ multi-utilisateurs et sécurisé.
 
 -   Accès aux données du SSM Agriculture (enquêtes, nomenclatures,
     fichiers externes...)\
--   Montée de versions régulière (Workbench / R / Packages)\
--   Sécurité /conformité\
+-   Montée de versions régulière (Workbench / R / packages)\
+-   Sécurité / conformité\
 -   Support Centre de Service et assistance BQIS garantis
 
 ## Historique des versions
 
 -   **2015** : CERISE V1 : Interface de développement SPSS
--   **2019** : CERISE V2 : Intégration de Rstudio, gestion de fichiers
+-   **2019** : CERISE V2 : Intégration de RStudio, gestion de fichiers
     GlusterFS
 -   **2023** : CERISE V3 : Intégration gestion de sources NFS-4
--   **2026** : CERISE V3+: Augmentation des ressources de la plateforme (1
-    To Ram)
+-   **2026** : CERISE V3+ : Augmentation des ressources de la plateforme (1 To RAM)
 
 ## Architecture générale
 
@@ -50,19 +49,19 @@ Cette plateforme est composée de briques standards au sein du MASA:
 
 -   Des serveurs R utilisés pour les batchs et tâches planifiées
 
--   Des serveurs RStudio permettant de developpement des programmes R
+-   Des serveurs RStudio permettant le développement des programmes R
 
--   Un système de gestion de fichiers
+-   Un système de stockage de fichiers
 
 Elle s'appuie également sur les offres du Centre de Services MASA:
 
 -   Gestion des sauvegardes systèmes
 
--   Une Forge Gitlab
+-   Une forge Gitlab
 
--   Un Ordonnanceur
+-   Un ordonnanceur
 
--   Un dépot pour accéder au CRAN
+-   Un dépôt-miroir pour accéder au CRAN
 
 ## Ressources Cerise
 
@@ -102,11 +101,11 @@ Des admins Cerise qui vous surveillent {{< fa face-smile-wink >}}
 
 ## Cerise en 2025
 
-| Composant | Version actuelle | Version à venir |
+| Composant    | Version actuelle               | Version à venir          |
 |--------------|--------------------------------|--------------------------|
-| RStudio | 2024.09 « Cranberry Hibiscus » | 2025.09 « Cucumberleaf Sunflower » |
-| Packages | R 4.2.3 – 2023-03-15<br>Nombre de packages disponibles : 18839<br>Nombre de packages installés : 803<br>R 4.4.1 – 2024-06-15<br>Nombre de packages disponibles : 20944<br>Nombre de packages installés : 814 | R 4.4.1 – 2024-06-15<br>Nombre de packages disponibles : 20944<br>Nombre de packages installés : 814<br><br>R 4.5.1 – 2025-06-13<br>Nombre de packages disponibles : 22505 |
-| R_Base_Core | R 4.2.3 – 2023-03-15<br>R 4.4.1 – 2024-06-15 | R 4.4.1 – 2024-06-15<br>R 4.5.1 – 2025-06-13 |
+| RStudio      | 2024.09 « Cranberry Hibiscus » | 2025.09 « Cucumberleaf Sunflower » |
+| Packages     | R 4.2.3 – 2023-03-15<br>Nombre de packages disponibles : 18839<br>Nombre de packages installés : 803<br>R 4.4.1 – 2024-06-15<br>Nombre de packages disponibles : 20944<br>Nombre de packages installés : 814 | R 4.4.1 – 2024-06-15<br>Nombre de packages disponibles : 20944<br>Nombre de packages installés : 814<br><br>R 4.5.1 – 2025-06-13<br>Nombre de packages disponibles : 22505 |
+| R_Base_Core  | R 4.2.3 – 2023-03-15<br>R 4.4.1 – 2024-06-15 | R 4.4.1 – 2024-06-15<br>R 4.5.1 – 2025-06-13 |
 
 ## Organisation de Cerise (1/2)
 
