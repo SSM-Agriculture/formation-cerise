@@ -63,6 +63,8 @@ Au S2 2025, il est prévu de limiter le nombre de sessions en parallèle par uti
     - Cliquer sur le bouton "upload/télécharger" dans l'onglet "Files/Fichiers"  
 
 ![](img/charger_cerise.png){fig-align="center"}
+  
+La limite d'upload d'un fichier d'un poste local vers CERISE est de 10Go.  
 
 - Pour **télécharger** depuis Cerise vers votre poste en local :  
   - Cocher le·s fichier·s
