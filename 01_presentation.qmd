@@ -65,8 +65,7 @@ Elle s'appuie également sur les offres du Centre de Services MAASA:
 
 ## Ressources Cerise
 
--   160 Go RAM\
--   30 processeurs virtuels\
+-   10 instances en load balancing (2,5 To RAM)\
 -   Plus de 400 utilisateurs distincts\
 -   80 sessions simultanées en moyenne
 
@@ -99,13 +98,9 @@ Des admins Cerise qui vous surveillent {{< fa face-smile-wink >}}
     -   Une liste pré-établie de packages est préinstallée sur CERISE
         pour chacune des version R_Base
 
-## Cerise en 2025
+## Cerise en 2026
 
-| Composant    | Version actuelle               | Version à venir          |
-|--------------|--------------------------------|--------------------------|
-| RStudio      | 2024.09 « Cranberry Hibiscus » | 2025.09 « Cucumberleaf Sunflower » |
-| Packages     | R 4.2.3 – 2023-03-15<br>Nombre de packages disponibles : 18839<br>Nombre de packages installés : 803<br>R 4.4.1 – 2024-06-15<br>Nombre de packages disponibles : 20944<br>Nombre de packages installés : 814 | R 4.4.1 – 2024-06-15<br>Nombre de packages disponibles : 20944<br>Nombre de packages installés : 814<br><br>R 4.5.1 – 2025-06-13<br>Nombre de packages disponibles : 22505 |
-| R_Base_Core  | R 4.2.3 – 2023-03-15<br>R 4.4.1 – 2024-06-15 | R 4.4.1 – 2024-06-15<br>R 4.5.1 – 2025-06-13 |
+![](img/versions.png){fig-align="center"}
 
 ## Organisation de Cerise (1/2)
 
