@@ -31,28 +31,46 @@ Voir [cette page d'utilitr](https://book.utilitr.org/01_R_Insee/Fiche_utiliser_r
 - **Pour les données volumineuses, privilégier le format de fichier Parquet**  (voir plus loin)
   Voir [ici](https://ssm-agriculture.github.io/formation-R-perf-06-parquet/) pour en savoir plus et/ou vous inscrire aux annonces de formation du BQIS.
 
-## Gestion des sessions (1/2)
+## Gestion des sessions (1/3)
 
-- Quand vous vous connectez sur Cerise via l'adresse fournie - **si vous n'avez qu'une session d'ouverte** - Cerise vous place directement dedans (vous arrivez donc dans l'interface RStudio).
+- Lorsque vous vous connectez à Cerise, vous allez arriver sur l'écran de gestion des sessions :   
 
-- **À partir de 2 sessions ouvertes**, lorsque vous vous connectez à Cerise, vous allez arriver sur l'écran de gestion des sessions :  
+![](img/home.png){fig-align="center"}
 
-![](img/home_sessions.png){fig-align="center"}
+- Sur les premières lignes, vous trouverez vos sessions ouvertes.  
+- Sur les dernières lignes, vous trouvez les différents projets que vous avez récemment utilisés. 
 
-## Gestion des sessions (2/2)
+## Gestion des sessions (2/3)
+
+Un 2ème affichage des sessions est possible en passant par les paramètres :  
+
+![](img/home_settings.png){fig-align="center"}
+
+## Gestion des sessions (3/3)
+
+![](img/home_old.png){fig-align="center"}
 
 - Dans la colonne de gauche de l'écran des sessions, vous trouverez vos sessions ouvertes.  
-- Dans la colonne de droite de l'écran des sessions, vous trouvez les différents projets que vous avez récemment utilisés.  
+- Dans la colonne de droite de l'écran des sessions, vous trouvez les différents projets que vous avez récemment utilisés. 
 
+ 
+## Gestion des sessions - Conseils
 
 **Chaque session est indépendante des autres.** Si vous avez lancé un long traitement dans une session, celle-ci est occupée et non-réactive le temps du traitement, mais vous pouvez continuer à travailler normalement dans les autres sessions.
 
 ::: callout-important
 ## À retenir ! 
 
-Il est important de veiller à limiter votre nombre de sessions actives (maximum 5 !) au risque de ne plus pouvoir accéder à Cerise par la suite.  
+Il est important de veiller à limiter votre nombre de sessions actives (maximum 3).  
 
-Au S2 2025, il est prévu de limiter le nombre de sessions en parallèle par utilisateur et de supprimer automatiquement les sessions inactives.
+Timeout des sessions inactives : Fermeture automatique après 4 jours d’inactivité  
+
+Profils de sessions :  
+
+- Default et Medium : Accessibles à tous (adaptés à la majorité des usages).  
+- Large et Superuser : Disponibles sur demande (pour les besoins intensifs en RAM/CPU).  
+
+Contactez le support pour demander un profil étendu : assistance.si-stat.sg@agriculture.gouv.fr
 :::
 
 
@@ -68,7 +86,7 @@ La limite d'upload d'un fichier d'un poste local vers CERISE est de 10Go.
 
 - Pour **télécharger** depuis Cerise vers votre poste en local :  
   - Cocher le·s fichier·s
-  - Cliquer sur la roue crantée dans l'onglet "Files"
+  - Cliquer sur la roue crantée dans l'onglet "Files"MAS
 
 ![](img/telecharger_cerise.png){fig-align="center"}
 
