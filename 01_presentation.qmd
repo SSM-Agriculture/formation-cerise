@@ -39,7 +39,7 @@ multi-utilisateurs et sécurisé.
 -   **2019** : CERISE V2 : Intégration de RStudio, gestion de fichiers
     GlusterFS
 -   **2023** : CERISE V3 : Intégration gestion de sources NFS-4
--   **2026** : CERISE V3+ : Augmentation des ressources de la plateforme (1 To RAM)
+-   **Oct. 2026** : CERISE V3+ : Augmentation des ressources de la plateforme (2,5 To RAM)
 
 ## Architecture générale
 
