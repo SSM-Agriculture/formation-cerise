@@ -43,7 +43,7 @@ multi-utilisateurs et sécurisé.
 
 ## Architecture générale
 
-Cette plateforme est composée de briques standards au sein du MASA:
+Cette plateforme est composée de briques standards au sein du MAASA:
 
 -   Autorité d'authentification
 
@@ -53,7 +53,7 @@ Cette plateforme est composée de briques standards au sein du MASA:
 
 -   Un système de stockage de fichiers
 
-Elle s'appuie également sur les offres du Centre de Services MASA:
+Elle s'appuie également sur les offres du Centre de Services MAASA:
 
 -   Gestion des sauvegardes systèmes
 
