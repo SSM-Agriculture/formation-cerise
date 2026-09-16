@@ -86,7 +86,7 @@ La limite d'upload d'un fichier d'un poste local vers CERISE est de 10Go.
 
 - Pour **télécharger** depuis Cerise vers votre poste en local :  
   - Cocher le·s fichier·s
-  - Cliquer sur la roue crantée dans l'onglet "Files"MAS
+  - Cliquer sur la roue crantée dans l'onglet "Files"
 
 ![](img/telecharger_cerise.png){fig-align="center"}
 
@@ -143,15 +143,6 @@ Plusieurs avantages :
 - Isolation des environnements (avec {renv})  
 - Intégration avec Git ...
 
-
-## Comparatif des formats de fichier de données
-
-| Format | Taille du fichier | Utilisation mémoire | Vitesse écriture | Vitesse lecture |
-|--------|-------------------|---------------------|------------------|-----------------|
-| RDS | ✅ Moyenne à faible (compressé, un seul objet) | ⚠️ Modérée (lecture directe d'un objet) | ✅ Rapide (compresse par défaut) | ✅ Rapide (pour un seul objet) |
-| CSV | ❌ Très grande (non compressé, texte brut) | ❌ Élevée (tout doit être parsé, conversion de type) | ✅ Rapide à écrire, peu coûteux | 🐢 Lent, très coûteux en ressources |
-| Parquet | ✅ Faible (colonnes compressées, binaire) | ✅ Faible (lecture par lot, colonnes ciblées) | ⚠️ Écriture plus lente (compression + formatage) | 🚀 Très rapide |
-
 ## Résumé des propriétés des différents formats
 
 - RDS  
@@ -162,7 +153,7 @@ Plusieurs avantages :
     Pas de support natif pour les types de données (dates, facteurs).  
     Import/Export très lents en R pour de grands volumes.  
 - Parquet  
-    Requiert le package {arrow} en R.  
+    Requiert le package {arrow} ou {duckdb} en R.  
     Lecture partielle possible (par colonne ou ligne).  
     Excellent pour la mutualisation, le cloud, ou les flux inter-langages.  
 
@@ -177,7 +168,7 @@ Plusieurs avantages :
 
 ## Mise à disposition d'applications Shiny
 
-Pour certains cas métiers spécifiques et sous certaines contraintes (sécurité/performance/maintenabilité...), il est possible de déployer sur internet des applications web (R/Shiny) sur [shinyapps.io](https://shinyapps.io/).  
+Pour certains cas métiers spécifiques et sous certaines contraintes (sécurité/performance/maintenabilité...), il est possible de déployer sur internet des applications web (R/Shiny) sur [shinyapps.io](https://shinyapps.io/) ou [Posit Connect Cloud](https://connect.posit.cloud/).    
 
 Des précautions s'imposent et doivent être prises en compte en amont des développements par les bureaux métiers et/ou les SRISE (pré-étude de sécurité obligatoire).  
 
